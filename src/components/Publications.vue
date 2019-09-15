@@ -1,0 +1,89 @@
+<template>
+  <v-container>
+	  <v-layout text-xs-left wrap>
+      <v-flex xs12 mb-6>
+        <h1 class="display-1 font-weight-bold mb-5">Publications</h1>
+      </v-flex>
+
+      <!-- 国際会議 -->    
+      <v-flex xs12 mb-5>
+      <h1 class="display-0 mb-3">国際会議</h1>
+      <ol>
+        <li class="headline mb-2">
+          Naruki Tanabe, Yushi Sato, Kohei Morita, Michiya Inagaki, Yuichi Fujino, Parinya Punpongsanon, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato, "fARFEEL: Providing Haptic Sensation of Touched Objects using Visuo-Haptic Feedback," In Proceedings of IEEE VR 2019 Demonstrations, pp.1355-1356, 2019.3.
+        </li> 
+        <li class="headline mb-2">
+          Yushi Sato, Naruki Tanabe, Kohei Morita, Takefumi Hiraki, Parinya Punpongsanon, Haruka Matsukura, Daisuke Iwai, Kosuke Sato, "Pseudo-Haptic Feedback in a Projected Virtual Hand for Tactile Perception of Textures," In Proceedings of IEEE World Haptics Conference 2019 (Work-in-progress), WP1P.09, 2019.7.
+        </li> 
+        <li class="headline mb-2">
+          Yushi Sato, Naruki Tanabe, Kohei Morita, Takefumi Hiraki, Parinya Punpongsanon, Haruka Matsukura, Daisuke Iwai, Kosuke Sato, "Pseudo-Haptic Feedback in a Projected Virtual Hand for Tactile Perception of Textures," In Proceedings of IEEE World Haptics Conference 2019 (Hands-on Demos), DM2.09, 2019.7.
+        </li> 
+      </ol>
+      </v-flex>
+
+      <!-- 国内会議 -->    
+      <v-flex xs12 mb-5>
+      <h1 class="display-0 mb-3">国際会議</h1>
+      <ol>
+        <li class="headline mb-2">
+          佐藤優志，"バーチャルハンドのPseudo-Haptic Feedbackによる材質感呈示手法"，第8回サイエンス・インカレ研究発表会要約集，発表番号47，p.53，2019.3．
+        </li> 
+        <li class="headline mb-2">
+          佐藤優志，田辺育暉，森田耕平，プンポンサノン パリンヤ，松倉悠，岩井大輔，佐藤宏介，"投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示"，第63回システム制御情報学会研究発表講演会講演論文集(SCI'19)，1371-1378，2019.5．
+        </li> 
+        <li class="headline mb-2">
+          森田耕平，田辺育暉，佐藤優志，プンポンサノン パリンヤ，松倉悠，岩井大輔，佐藤宏介，"頭部方向を用いた投影型拡張仮想手の操作範囲の拡張"，第63回システム制御情報学会研究発表講演会講演論文集(SCI'19)，1375-1381，2019.5．
+        </li> 
+      </ol>
+      </v-flex>
+    
+      <!-- 受賞 -->    
+      <v-flex xs12 mb-5>      
+      <h1 class="display-0 mb-3">受賞</h1>
+      <ol>
+        <li class="headline mb-2">
+          ファーウェイ賞 (佐藤優志，"バーチャルハンドのPseudo-Haptic Feedbackによる材質感呈示手法") (2019.3).
+        </li> 
+        <li class="headline mb-2">
+          SCI学生発表賞 (佐藤優志，田辺育暉，森田耕平，プンポンサノン パリンヤ，松倉悠，岩井大輔，佐藤宏介，"投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示") (2019.5).
+        </li> 
+      </ol>
+      </v-flex>
+
+      <!-- その他・Web報道 -->    
+      <v-flex xs12 mb-5>
+      <h1 class="display-0 mb-3">その他・Web報道</h1>
+      <ol>
+        <li class="headline mb-2">
+          Seamless (<a href="https://shiropen.com/seamless/farfeel" target="_blank">https://shiropen.com/seamless/farfeel</a>)
+        </li> 
+        <li class="headline mb-2">
+          MoguraVR (<a href="https://www.moguravr.com/world-haptics-conference-2019" target="_blank">https://www.moguravr.com/world-haptics-conference-2019</a>)
+        </li> 
+      </ol>
+      </v-flex>
+
+
+    </v-layout>
+	</v-container>
+</template>
+
+<style>
+
+</style>
+<!-- jsonから読み込む用
+
+<script lang="ts"> 
+import Publications from '@/static/data/publications.json';
+
+export default {
+  name: 'Publications',
+  data() {
+    return {
+			items: Publications,
+    };
+  },
+};
+ -->
+ 
+</script>
