@@ -19,7 +19,6 @@
 				</p>
 			</v-flex>
 
-
 			<v-flex xs12 mb-5>
 				<h2 class="display-1 font-weight-bold mb-3">Links</h2>
 

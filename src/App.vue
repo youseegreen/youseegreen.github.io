@@ -15,9 +15,9 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat v-for="item in items" :key="item.title">
-          <router-link class='router-txt' :to="'/' + item.title">
-            {{ item.title }}
-          </router-link>      
+            <router-link class='router-txt' :to="'/' + item.title">
+              {{ item.title }}
+            </router-link>   
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>  
@@ -26,10 +26,18 @@
     <v-navigation-drawer 
       v-model="drawer" 
       temporary
+      relative
       absolute
     >
       <v-list class="pt-0" dense>
         <v-divider></v-divider>
+
+      <!-- Homeボタンを別でつける -->
+        <v-list-tile>
+        <v-list-tile-action><font-awesome-icon class="fa-lg" :icon="'home'"/></v-list-tile-action>
+        <v-list-tile-content><v-list-tile-title><router-link class='router-txt' :to="'/Home'">Home</router-link></v-list-tile-title></v-list-tile-content>
+        </v-list-tile>
+      <!-- -->
 
         <v-list-tile
           v-for="item in items"
@@ -81,7 +89,7 @@ export default {
       return {
         drawer: null,
         items: [
-          { title: 'Home', icon: 'home' },
+         // { title: 'Home', icon: 'home' },
           { title: 'Profile', icon: 'address-card' },
           { title: 'Publications', icon: 'book' },
         ],
