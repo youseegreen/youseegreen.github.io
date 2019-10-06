@@ -7,7 +7,8 @@
 
       <!-- 国際会議 -->    
       <v-flex xs12 mb-5>
-      <h1 class="display-0 mb-3">国際会議</h1>
+      <h1 class="display-0 mb-2">国際会議</h1>
+      <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2">
           <b>Yushi Sato</b>, Naruki Tanabe, Kohei Morita, Takefumi Hiraki, Parinya Punpongsanon, Haruka Matsukura, Daisuke Iwai, Kosuke Sato, "Pseudo-Haptic Feedback in a Projected Virtual Hand for Tactile Perception of Textures," In Proceedings of IEEE World Haptics Conference 2019 (Work-in-progress), WP1P.09, 2019.7.
@@ -23,7 +24,8 @@
 
       <!-- 国内会議 -->    
       <v-flex xs12 mb-5>
-      <h1 class="display-0 mb-3">国内会議</h1>
+      <h1 class="display-0 mb-2">国内会議</h1>
+      <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2">
           <b>佐藤優志</b>，田辺育暉，森田耕平，プンポンサノン パリンヤ，松倉悠，岩井大輔，佐藤宏介，"投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示"，第63回システム制御情報学会研究発表講演会講演論文集(SCI'19)，1371-1378，2019.5．
@@ -42,7 +44,8 @@
     
       <!-- 受賞 -->    
       <v-flex xs12 mb-5>      
-      <h1 class="display-0 mb-3">受賞</h1>
+      <h1 class="display-0 mb-2">受賞</h1>
+      <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2">
           ファーウェイ賞 (<b>佐藤優志</b>，"バーチャルハンドのPseudo-Haptic Feedbackによる材質感呈示手法") (2019.3).
@@ -55,7 +58,8 @@
 
       <!-- その他・Web報道 -->    
       <v-flex xs12 mb-5>
-      <h1 class="display-0 mb-3">その他・Web報道</h1>
+      <h1 class="display-0 mb-2">その他・Web報道</h1>
+      <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2">
           Seamless (<a href="https://shiropen.com/seamless/farfeel" target="_blank">https://shiropen.com/seamless/farfeel</a>)
