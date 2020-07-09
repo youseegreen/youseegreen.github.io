@@ -3,8 +3,8 @@
 	<v-container style="width:70%">
 		<v-layout text-xs-center wrap class="home-hero__content" mb-5>
 			<v-flex xs12 mt-5 mb-5>
-				<h1 class="display-2 white--text font-weight-bold mt-3 mb-3">Welcome to Yushi's HP!</h1>
-			</v-flex>	
+				<h1 class="display-2 green--text text--darken-3 font-weight-bold mt-3 mb-3">Welcome to Yushi's HP!</h1>
+			</v-flex>
 		</v-layout>
 
 		<v-layout text-xs-left wrap ml-2>	
