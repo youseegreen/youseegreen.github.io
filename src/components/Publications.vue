@@ -14,7 +14,7 @@
       <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2 ml-3">
-          <b>Yushi Sato</b>, Takefumi Hiraki, Naruki Tanabe, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato, "Modifying Texture Perception with Pseudo-Haptic Feedback for a Projected Virtual Hand Interface," <i>IEEE Access</i>, 16pages. (to appear)
+          <b>Yushi Sato</b>, Takefumi Hiraki, Naruki Tanabe, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato, "Modifying Texture Perception with Pseudo-Haptic Feedback for a Projected Virtual Hand Interface," <i>IEEE Access</i>, Vol. 8, pp. 120473-120488, 2020.
         </li> 
       </ol>
       </v-flex>

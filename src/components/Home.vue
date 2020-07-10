@@ -3,28 +3,90 @@
 	<v-container style="width:70%">
 		<v-layout text-xs-center wrap class="home-hero__content" mb-5>
 			<v-flex xs12 mt-5 mb-5>
-				<h1 class="display-2 green--text text--darken-3 font-weight-bold mt-3 mb-3">Welcome to Yushi's HP!</h1>
+				<h1 class="display-2 font-weight-bold mt-3 mb-3" style="color:#007641;">Welcome to Yushi's HP!</h1>
 			</v-flex>
 		</v-layout>
 
-		<v-layout text-xs-left wrap ml-2>	
+		<v-layout text-xs-left wrap ml-2 mb-5>	
 			<v-flex>
 				<h1 class="display-0 font-weight-bold mb-2">News</h1>
 				<v-divider class="mb-3"></v-divider>
-				<p class="title ml-4 mb-5 font-weight-regular">
-					2019/09/15　ホームページ開設
-				</p>
+		
+				<v-layout text-xs-left mb-2 ml-4 wrap>
+					<v-flex xs2 sm2 md2 xl2>
+						<p class="title font-weight-regular">
+						2020.3.25
+						</p>
+					</v-flex>
+					<v-flex>
+						<p class="title font-weight-regular">
+						<a class='news-link' href='https://www.iscie.or.jp/about/award' target='_new'>システム制御情報学会</a>より2020年度学会賞「奨励賞」を受賞しました。
+						</p>
+					</v-flex>
+				</v-layout>
+
+				<v-layout text-xs-left mb-2 ml-4 wrap>
+					<v-flex xs2 sm2 md2 xl2>
+						<p class="title font-weight-regular">
+						2019.8.24-9.7
+						</p>
+					</v-flex>
+					<v-flex>
+						<p class="title font-weight-regular">
+						<a class='news-link' href='https://www.huawei.com/jp/sustainability/csr-news/hw_20190912' target='_new'>HUAWEI Seeds for the Futureプログラム</a>に参加しました。
+						</p>
+					</v-flex>
+				</v-layout>
+
+				<v-layout text-xs-left mb-2 ml-4 wrap>
+					<v-flex xs2 sm2 md2 xl2>
+						<p class="title font-weight-regular">
+						2019.5.24
+						</p>
+					</v-flex>
+					<v-flex>
+						<p class="title font-weight-regular">
+						<a class='news-link' href='https://sci19.iscie.or.jp/award/' target='_new'>第63回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞しました。
+						</p>
+					</v-flex>
+				</v-layout>
+
+				<v-layout text-xs-left mb-2 ml-4 wrap>
+					<v-flex xs2 sm2 md2 xl2>
+						<p class="title font-weight-regular">
+						2019.4.1
+						</p>
+					</v-flex>
+					<v-flex>
+						<p class="title font-weight-regular">
+						大阪大学大学院基礎工学研究科 博士前期課程に進学しました。
+						</p>
+					</v-flex>
+				</v-layout>
+
+				<v-layout text-xs-left mb-2 ml-4 wrap>
+					<v-flex xs2 sm2 md2 xl2>
+						<p class="title font-weight-regular">
+						2019.3.3
+						</p>
+					</v-flex>
+					<v-flex>
+						<p class="title font-weight-regular">
+						<a class='news-link' href='https://www.osaka-u.ac.jp/ja/news/topics/2019/03/1301' target='_new'>第8回サイエンス・インカレ</a>にてファーウェイ賞を受賞しました。
+						</p>
+					</v-flex>
+				</v-layout>
 			</v-flex>
 		</v-layout>
 
-		<v-layout text-xs-left wrap ml-2>	
+		<v-layout text-xs-left wrap ml-2 mb-4>	
 			<v-flex>
 				<h1 class="display-0 font-weight-bold mb-2">Links</h1>
 				<v-divider class="mb-3"></v-divider>
 
 				<p v-for="(eco, i) in link":key="i">
-					<a v-bind:href=eco.href style="text-decoration:none;" class="title font-weight-regular xs12 ml-4" target="_blank">
-					<font-awesome-icon v-bind:icon=eco.icon color="#4169e1"/>
+					<a v-bind:href=eco.href class="title font-weight-regular xs12 ml-4" target="_blank" style="color:#007641; text-decoration:none">
+					<font-awesome-icon v-bind:icon=eco.icon color="#007641"/>
 					{{eco.text}}</a>
 				</p>
 			</v-flex>
@@ -115,5 +177,9 @@ export default class Home extends Vue {
   width: 100%;
   height: 70vh;
 }
-
+.news-link
+{
+  color: #007641;
+  text-decoration: none;
+}
 </style>

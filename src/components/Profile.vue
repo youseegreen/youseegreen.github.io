@@ -18,11 +18,17 @@
 				<h1 class="headline mb-5 ml-3">大阪大学 大学院基礎工学研究科 システム創成学専攻 システム科学領域 <a href="https://www.sens.sys.es.osaka-u.ac.jp/" target="_blank">佐藤研究室</a></h1>
 				<h1 class="display-1 font-weight-bold mb-2">研究興味</h1>
 				<v-divider class="mb-3"></v-divider>
-				<h1 class="headline mb-5 ml-3">HCI（ヒューマン-コンピュータインタラクション）、VR/AR/MR</h1>
+				<h1 class="headline mb-5 ml-3">HCI（ヒューマン-コンピュータインタラクション）、VR/AR/MR、環世界</h1>
 				<h1 class="display-1 font-weight-bold mb-2">学歴</h1>
 				<v-divider class="mb-3"></v-divider>
 				<h1 class="headline mb-2 ml-3">2017年3月　奈良工業高等専門学校電子制御工学科 卒業</h1>
 				<h1 class="headline mb-5 ml-3">2019年3月　大阪大学基礎工学部システム科学科 卒業</h1>
+				<h1 class="display-1 font-weight-bold mb-2">趣味</h1>
+				<v-divider class="mb-3"></v-divider>
+				<h1 class="headline mb-2 ml-3">ぷよぷよ：世界200位程度の実力です。</h1>
+				<h1 class="headline mb-2 ml-3">旅行：18きっぱー、秘境が好きです。</h1>
+				<h1 class="headline mb-2 ml-3">ピアノ：高専から独学で始めました。ラグタイムが好きです。</h1>
+				<h1 class="headline mb-5 ml-3">ランニング：登下校(5km)はいつも走っています。</h1>
 				<h1 class="display-1 font-weight-bold mb-2">連絡先</h1>
 				<v-divider class="mb-3"></v-divider>
 				<h1 class="headline mb-2 ml-3">Tel: 06-6850-6373</h1>
