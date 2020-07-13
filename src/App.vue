@@ -5,11 +5,13 @@
     <!-- 色：color=rgba(0, 118, 65, 1) -->
     <v-toolbar color="#007641" app>
 
-      <!-- flat: ボタン背景色削除、icon：ボタンに丸みを持たせる click.stopの時にdrawer変数or関数?を反転させる 
-      <v-btn flat icon @click.stop="drawer = !drawer">
+
+      <!-- ナビゲーションボタン（スマホの時のみ描画）-->
+      <!-- flat: ボタン背景色削除、icon：ボタンに丸みを持たせる click.stopの時にdrawer変数or関数?を反転させる -->
+      <v-btn v-if="$vuetify.breakpoint.xs" flat icon @click.stop="drawer = !drawer">
         <font-awesome-icon icon="bars" color="#ffffff" class="fa-2x"/>
       </v-btn>
-      --> 
+      
 
       <v-toolbar-items>
         <v-btn flat>
@@ -24,10 +26,13 @@
       <v-divider class="mx-3" vertical></v-divider>
       -->
 
+
       <!-- v-spacer:  -->
       <v-spacer></v-spacer>
 
-      <v-toolbar-items>
+
+      <!-- ツールバーアイテム：スマホ以外の時に描画 -->
+      <v-toolbar-items v-if="$vuetify.breakpoint.sm || $vuetify.breakpoint.lg || $vuetify.breakpoint.md || $vuetify.breakpoint.xl">
         <v-btn flat v-for="item in items" :key="item.title">
             <router-link class='router-txt' :to="'/' + item.title">
               {{ item.title }}
@@ -37,37 +42,25 @@
     </v-toolbar>  
 
 
-    <!-- ナビゲーションバー 
-    <v-navigation-drawer 
-      v-model="drawer" 
-      temporary
-      relative
-      absolute
-    >
+    <!-- ナビゲーションバー (スマホの場合のみ機能させる)-->
+    <v-navigation-drawer v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm" v-model="drawer" width="250px" temporary relative absolute>
       <v-list class="pt-0" dense>
         <v-divider></v-divider>
-    -->
 
-      <!-- Homeボタンを別でつける
+      <!-- Homeボタンを別でつける-->
         <v-list-tile>
         <v-list-tile-action><font-awesome-icon class="fa-lg" :icon="'home'"/></v-list-tile-action>
-        <v-list-tile-content><v-list-tile-title><router-link class='router-txt' :to="'/Home'">Home</router-link></v-list-tile-title></v-list-tile-content>
+        <v-list-tile-content><v-list-tile-title><router-link class='navi-txt' :to="'/Home'">Home</router-link></v-list-tile-title></v-list-tile-content>
         </v-list-tile>
-      -->
 
-    <!--
-        <v-list-tile
-          v-for="item in items"
-          :key="item.title"
-        >
+        <v-list-tile v-for="item in items" :key="item.title">
           <v-list-tile-action>
             <font-awesome-icon class="fa-lg" :icon="item.icon"/>
           </v-list-tile-action>
 
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link class='router-txt'
-                :to="'/' + item.title">
+              <router-link class='navi-txt' :to="'/' + item.title">
                 {{ item.title }}
               </router-link>
             </v-list-tile-title>
@@ -75,7 +68,6 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    -->
 
 
     <v-content>
@@ -108,6 +100,12 @@
   font-size: 17px;
   font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:#ffffff;
+  text-decoration: none;
+}
+.navi-txt{
+  font-size: 18px;
+  font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:#000000;
   text-decoration: none;
 }
 .router-name-txt{

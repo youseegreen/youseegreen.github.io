@@ -6,23 +6,23 @@
 			</v-flex>
 		</v-layout>
 
-		<v-layout row mb-5>
+		<v-layout row mb-5 ml-5 wrap>
 			<!-- offset：offset-md1 offset-xl1) -->
-			<v-flex xs4 sm4 md4 xl4 mr-5 ml-5>
+			<v-flex xs11 sm4 md4 xl4 mr-5>
 				<v-img :src="require('../assets/projects/eh_phf.gif')" contain></v-img>
 			</v-flex>
-			<v-flex xs6 sm6 md6 xl6>
+			<v-flex xs11 sm6 md6 xl6>
 				<h2 class="headline font-weight-bold mb-1">投影バーチャルハンドインタフェースに対する疑似触覚フィードバックの応用</h2>
 				<p class="subtitle-1 mb-3">(IEEE Access 2020, IEEE World Haptics 2019 Poster, Demo)</p>
 				<p class="body-1">ユーザの手の動きに連動して動くバーチャルハンドをプロジェクタから投影する投影バーチャルハンドインタフェースは、日常生活でのユーザの手の届く範囲を拡張することができます。しかし、投影バーチャルハンドが実物体に重なった際、ユーザはその物体に触れている感覚を得られません。本プロジェクトでは、投影バーチャルハンドが実物体に触れた際に、バーチャルハンドに視覚効果を付与することで、疑似触覚フィードバックによりユーザにその物体の触感を知覚させる手法を提案しました。</p>
 			</v-flex>
 		</v-layout>
 
-		<v-layout row mb-5>
-			<v-flex xs4 sm4 md4 xl4 mr-5 ml-5>
+		<v-layout row mb-5 ml-5 wrap>
+			<v-flex xs11 sm4 md4 xl4 mr-5>
 				<v-img :src="require('../assets/projects/farfeel.jpg')" contain></v-img>
 			</v-flex>
-			<v-flex xs6 sm6 md6 xl6>
+			<v-flex xs11 sm6 md6 xl6>
 				<h2 class="headline font-weight-bold mb-1">fARFEEL: Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback</h2>
 				<p class="subtitle-1 mb-3">(IEEE VR 2019 Demo)</p>
 				<p class="body-1">

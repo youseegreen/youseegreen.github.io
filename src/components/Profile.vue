@@ -1,12 +1,17 @@
 <template>
 
 	<v-container>
-		<v-layout text-xs-center wrap>		
-			<v-flex xs12 mb-6>		
-				<v-img :src="require('../assets/profile_photo.jpg')" class="my-3" contain height="300"></v-img>
-				<p class="title mb-4">Photo @IEEE WHC 2019にて</p>
+		<v-layout text-xs-center mb-2 wrap>		
+			<v-flex>		
+				<v-img :src="require('../assets/profile_photo.jpg')" contain height="300"></v-img>
 			</v-flex>			
 		</v-layout>
+		<v-layout text-xs-center mb-5 wrap>		
+			<v-flex>		
+				<p class="title">Photo @IEEE WHC 2019にて</p>
+			</v-flex>			
+		</v-layout>
+
 
 		<v-layout text-xs-left wrap>	
 			<v-flex mb-4>

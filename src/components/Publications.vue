@@ -86,10 +86,10 @@
       <v-divider class="mb-3"></v-divider>
       <ol>
         <li class="headline mb-2 ml-3">
-          Seamless (<a href="https://shiropen.com/seamless/farfeel" target="_blank">https://shiropen.com/seamless/farfeel</a>)
+          Seamless (<a href="https://shiropen.com/seamless/farfeel" style="word-break:break-all;" target="_blank">https://shiropen.com/seamless/farfeel</a>)
         </li> 
         <li class="headline mb-2 ml-3">
-          MoguraVR (<a href="https://www.moguravr.com/world-haptics-conference-2019" target="_blank">https://www.moguravr.com/world-haptics-conference-2019</a>)
+          MoguraVR (<a href="https://www.moguravr.com/world-haptics-conference-2019" style="word-break:break-all;" target="_blank">https://www.moguravr.com/world-haptics-conference-2019</a>)
         </li> 
       </ol>
       </v-flex>
