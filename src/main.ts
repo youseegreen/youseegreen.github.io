@@ -10,6 +10,12 @@ import Profile from './components/Profile.vue';
 import Projects from './components/Projects.vue';
 import Publications from './components/Publications.vue';
 import Others from './components/Others.vue';
+import O_Cpp_Tensorflow from './components/others_components/Cpp_Tensorflow.vue';
+
+import Test from './components/Test.vue';
+import TestHome from './components/test_components/test_home.vue';
+import TestTip1 from './components/test_components/test_tip1.vue';
+
 
 
 library.add(fas);
@@ -48,13 +54,21 @@ const Routes = [
     name: 'Others',
     component: Others,
   },
+  {
+    path: '/Others::cpp_tensorflow_tips',
+    name: 'O_Cpp_Tensorflow',
+    component: O_Cpp_Tensorflow,
+  },
 ];
+
 
 const router = new Router({
   routes: Routes,
   mode: 'history',
+  base: process.env.BASE_URL,
   linkActiveClass: 'active',
 });
+
 
 Vue.use(Router);
 

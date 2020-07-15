@@ -1,6 +1,6 @@
 <template>
 
-	<v-container style="width:95%">
+	<v-container style="width:90%">
 
 		<!-- 文字後付け版
 		<v-layout text-xs-center wrap class="home-hero__content" mb-5>

@@ -6,27 +6,36 @@
 			</v-flex>
 		</v-layout>
 
+		
 		<v-layout row>
 			<v-flex ml-5>
 				<p class="body-1">準備中です...</p>
 			</v-flex>
 		</v-layout>
 		
+
 		<!--
-		<v-layout row>
-			<v-flex xs4 sm4 md4 xl4 mr-5 ml-5 flex-start>
-				<v-img :src="require('../assets/project1.gif')" contain ></v-img>
-			</v-flex>
-			<v-flex xs6 sm6 md6 xl6 flex-start>
-				<h2 class="headline font-weight-bold mb-1">投影バーチャルハンドインタフェースに対する疑似触覚フィードバックの応用</h2>
-				<p class="subtitle-1 mb-3">(IEEE WHC 2019, IEEE Access)</p>
-				<p class="body-1">ユーザの手の動きに連動して動くバーチャルハンドをプロジェクタから投影する投影バーチャルハンドインタフェースは、日常生活でのユーザの手の届く範囲を拡張することができます。しかし、投影バーチャルハンドが実物体に重なった際、ユーザはその物体に触れている感覚を得られません。本プロジェクトでは、投影バーチャルハンドが実物体に触れた際に、バーチャルハンドに視覚効果を付与することで、疑似触覚フィードバックによりユーザにその物体の触感を知覚させる手法を提案しました。</p>
+		<v-layout ml-5 mb-5 wrap>
+			<v-flex>
+				<h2 class="headline font-weight-bold mb-1">
+				<router-link class='tip-title-txt':to="'/Others::cpp_tensorflow'">
+            	c++から学習済みtensorflowモデルを呼び出す
+            	</router-link></h2>
+				<p class="subtitle-1 mb-3">(c++, tensorflow)</p>
+				<p class="body-1">pythonで学習させたモデルをc++から利用したいよねっていう話です。
+				tensorflowのc++ apiを上手くbuildできなかったので、c apiを使っています。(※GPUでは試せていません。CPU Onlyのお話です。)</p>
 			</v-flex>
 		</v-layout>
 		-->
+
 	</v-container>
 </template>
 
 
 <style>
+.tip-title-txt{
+  font-family: SegoeUI,Helvetica,sans-serif;
+  color:#007641;
+  text-decoration: none;
+}
 </style>
