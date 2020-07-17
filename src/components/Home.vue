@@ -165,6 +165,11 @@ export default class Home extends Vue {
 			href: 'https://github.com/youseegreen',
 		},
 		{
+			text: 'Google Scholar',
+			icon: 'link',
+			href: 'https://scholar.google.co.jp/citations?user=AO879_cAAAAJ',
+		},
+		{
 			text: '研究室',
 			icon: 'link',
 			href: 'https://www.sens.sys.es.osaka-u.ac.jp/',

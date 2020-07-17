@@ -1,34 +1,44 @@
 <template>
 	<v-container style="width:100%">
+
+
 		<v-layout>
 			<v-flex mt-3 mb-5>
 				<h1 class="display-1">プロジェクト</h1>
 			</v-flex>
 		</v-layout>
 
-		<v-layout row mb-5 ml-5 wrap>
+		<v-layout mb-5 ml-3>
+		<v-card>
+		<v-layout row mt-3 mb-2 mr-2 ml-3 wrap>
 			<!-- offset：offset-md1 offset-xl1) -->
-			<v-flex xs11 sm4 md4 xl4 mr-5>
+			<v-flex xs11 sm11 md4 xl4 mr-5>
 				<v-img :src="require('../assets/projects/eh_phf.gif')" contain></v-img>
 			</v-flex>
-			<v-flex xs11 sm6 md6 xl6>
+			<v-flex xs11 sm11 md7 xl7>
 				<h2 class="headline font-weight-bold mb-1">投影バーチャルハンドインタフェースに対する疑似触覚フィードバックの応用</h2>
 				<p class="subtitle-1 mb-3">(IEEE Access 2020, IEEE World Haptics 2019 Poster, Demo)</p>
 				<p class="body-1">ユーザの手の動きに連動して動くバーチャルハンドをプロジェクタから投影する投影バーチャルハンドインタフェースは、日常生活でのユーザの手の届く範囲を拡張することができます。しかし、投影バーチャルハンドが実物体に重なった際、ユーザはその物体に触れている感覚を得られません。本プロジェクトでは、投影バーチャルハンドが実物体に触れた際に、バーチャルハンドに視覚効果を付与することで、疑似触覚フィードバックによりユーザにその物体の触感を知覚させる手法を提案しました。</p>
 			</v-flex>
 		</v-layout>
+		</v-card>
+		</v-layout>
 
-		<v-layout row mb-5 ml-5 wrap>
-			<v-flex xs11 sm4 md4 xl4 mr-5>
+		<v-layout mb-5 ml-3>
+		<v-card>
+		<v-layout row mt-3 mb-2 mr-2 ml-3 wrap>
+			<v-flex xs11 sm11 md4 xl4 mr-5>
 				<v-img :src="require('../assets/projects/farfeel.jpg')" contain></v-img>
 			</v-flex>
-			<v-flex xs11 sm6 md6 xl6>
+			<v-flex xs11 sm11 md7 xl7>
 				<h2 class="headline font-weight-bold mb-1">fARFEEL: Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback</h2>
 				<p class="subtitle-1 mb-3">(IEEE VR 2019 Demo)</p>
 				<p class="body-1">
 				We present fARFEEL, a remote communication system that provides visuo-haptic feedback allows a local user to feel touching distant objects. The system allows the local and remote users to communicate by using the projected virtual hand (VH) for the agency of his/her own hands. The necessary haptic information is provided to the non-manipulating hand of the local user that does not bother the manipulation of the projected VH. We also introduce the possible visual stimulus that could potentially provide the sense of the body ownership over the projected VH.
 				</p>
 			</v-flex>
+		</v-layout>
+		</v-card>
 		</v-layout>
 	</v-container>
 </template>

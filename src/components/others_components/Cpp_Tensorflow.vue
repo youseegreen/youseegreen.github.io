@@ -1,15 +1,31 @@
+//mdを表示する
+//npm install marked raw-loader save-devを実行
+//参考https://hiroto-k.hatenablog.com/entry/2019/03/27/200000
+
 <template>
-	<v-container style="width:100%">
+  	<v-container>
 		<v-layout mt-3 mb-5>
-			<v-layout>
-			<h1 class="display-1">c++から学習済みtensorflowモデルを呼び出す</h1>
-			</v-layout>
-			<v-layout>
-			<h2 class="body-1">Python&Tensorflowで学習させたモデルをc++アプリケーションに組み込んだお話です。(※GPUでは試せていません。CPU Onlyのお話です。)</h2>
-			</v-layout>
+  			<div v-html="markedContent">
+  			</div>
 		</v-layout>
-	</v-container>
+  	</v-container>
 </template>
+
+<script>
+  import marked from 'marked';
+  import markDownSource from 'raw-loader!./cpp_tensorflow.md';
+
+  export default {
+    computed: {
+      source() {
+        return markDownSource;
+      },
+      markedContent() {
+        return marked(this.source);
+      },
+    },
+  };
+</script>
 
 
 <style>

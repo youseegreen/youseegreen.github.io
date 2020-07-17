@@ -1,8 +1,8 @@
-# Python&Tensorflowで学習させたモデルをc++から利用する
+# <span style="color:rgb(0, 118, 65)">Python&Tensorflowで学習させたモデルをc++から利用する</span>
+
 
 ## 得られた結果
-
-
+![test](./img/eh_phf.e0031c52.gif)
 
 ## 環境
 - Windows10 (64bit)
@@ -21,9 +21,10 @@
 RNNとかだと上手くいくか未検証です。  
 
 
+
 ### 2. 学習済みモデルの吐き出し
 次のサンプルコードを実行する。  
-(http://を使わさせていただきました。ありがとうございます。)
+(http://youseegreen.github.io を使わさせていただきました。ありがとうございます。)
 
 ### 3. Visual Studioの設定
 1. Tensorflow C apiのダウンロード  
@@ -34,4 +35,16 @@ RNNとかだと上手くいくか未検証です。
 3. Visual Studioで空のプロジェクトを設定。
 
 4. Visual Studioプロジェクト
- 
+http://youseegreen.github.io を使わさせていただく。
+
+
+
+```cpp:hoge.cpp
+function hello(){
+    return "hoge";
+};
+```
+
+
+### 注意点（未確認事項）
+- 今回はCNNしか使っていないが、RNN等のネットワークにc apiが対応できるか知りません。

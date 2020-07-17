@@ -11,10 +11,8 @@ import Projects from './components/Projects.vue';
 import Publications from './components/Publications.vue';
 import Others from './components/Others.vue';
 import O_Cpp_Tensorflow from './components/others_components/Cpp_Tensorflow.vue';
-
-import Test from './components/Test.vue';
-import TestHome from './components/test_components/test_home.vue';
-import TestTip1 from './components/test_components/test_tip1.vue';
+import O_Vrm_for_Cluster from './components/others_components/vrm_for_cluster.vue';
+import O_Scheffe_Ura_Version from './components/others_components/Scheffe_Ura_version.vue';
 
 
 
@@ -55,9 +53,19 @@ const Routes = [
     component: Others,
   },
   {
-    path: '/Others::cpp_tensorflow_tips',
+    path: '/Others<vrm_for_cluster>',
+    name: 'O_Vrm_for_Cluster',
+    component: O_Vrm_for_Cluster,
+  },
+  {
+    path: '/Others<cpp_tensorflow>',
     name: 'O_Cpp_Tensorflow',
     component: O_Cpp_Tensorflow,
+  },
+  {
+    path: '/Others<Scheffe_Ura_version>',
+    name: 'O_Scheffe_Ura_Version',
+    component: O_Scheffe_Ura_Version,
   },
 ];
 

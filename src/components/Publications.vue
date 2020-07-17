@@ -1,10 +1,31 @@
 <template>
   <v-container style="width:100%">
+    <!--
+	  <v-toolbar color=rgba(246,246,244) height=100px absolute flat>
+		  <v-layout>
+        <v-flex offset-md1 offset-xl1 ml-5>
+		      <h1 class="display-1">発表業績</h1>
+        </v-flex>
+		  </v-layout>
+		</v-toolbar>
+    <v-card width=max-width outlined flat color=rgba(0,246,244,1) height=100px>
+      <v-layout mb-5>
+				<h1 class="display-1">発表業績</h1>
+      </v-layout>
+    </v-card>
+    <v-layout mt-3 mb-5>
+    <v-card flat color=rgba(0,246,244,1)>
+				<h1 class="display-1">発表業績</h1>
+    </v-card>
+    </v-layout>
+    -->
+
 		<v-layout mt-3 mb-5>
 			<v-flex>
 				<h1 class="display-1">発表業績</h1>
 			</v-flex>
 		</v-layout>
+
 
     <!-- ページタイトルより右に持って行きたい場合、下の文を全てv-flex ml-xで囲めばよい -->
     <v-flex ml-3>

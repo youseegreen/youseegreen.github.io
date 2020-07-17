@@ -20,7 +20,8 @@
 				<h2 class="headline mb-5 ml-3">佐藤 優志 (さとう ゆうし)</h2>
 				<h1 class="display-1 font-weight-bold mb-2">所属</h1>
 				<v-divider class="mb-3"></v-divider>
-				<h1 class="headline mb-5 ml-3">大阪大学 大学院基礎工学研究科 システム創成専攻 システム科学領域 <a href="https://www.sens.sys.es.osaka-u.ac.jp/" target="_blank">佐藤研究室</a></h1>
+				<h1 class="headline mb-2 ml-3">大阪大学 大学院基礎工学研究科 システム創成専攻 システム科学領域 <a href="https://www.sens.sys.es.osaka-u.ac.jp/" style="color:#000" target="_blank">佐藤研究室</a></h1>
+				<h1 class="headline mb-5 ml-3"><a href="https://www.humanware.osaka-u.ac.jp/" style="color:#000" target="_blank">ヒューマンウェアイノベーション博士課程プログラム</a></h1>
 				<h1 class="display-1 font-weight-bold mb-2">研究興味</h1>
 				<v-divider class="mb-3"></v-divider>
 				<h1 class="headline mb-5 ml-3">HCI、VR/AR/MR、疑似触覚、環世界</h1>

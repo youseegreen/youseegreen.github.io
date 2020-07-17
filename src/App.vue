@@ -5,7 +5,6 @@
     <!-- 色：color=rgba(0, 118, 65, 1) -->
     <v-toolbar color="#007641" app>
 
-
       <!-- ナビゲーションボタン（スマホの時のみ描画）-->
       <!-- flat: ボタン背景色削除、icon：ボタンに丸みを持たせる click.stopの時にdrawer変数or関数?を反転させる -->
       <v-btn v-if="$vuetify.breakpoint.xs" flat icon @click.stop="drawer = !drawer">
@@ -43,7 +42,7 @@
 
 
     <!-- ナビゲーションバー (スマホの場合のみ機能させる)-->
-    <v-navigation-drawer v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm" v-model="drawer" width="250px" temporary relative absolute>
+    <v-navigation-drawer v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm" v-model="drawer" width="250px" temporary fixed>
       <v-list class="pt-0" dense>
         <v-divider></v-divider>
 
@@ -70,7 +69,7 @@
     </v-navigation-drawer>
 
 
-    <v-content>
+    <v-content>   
       <router-view/>
     </v-content>
 
