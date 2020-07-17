@@ -45,8 +45,8 @@
       <v-img :src="require('../../assets/others/scheffe_ura_paper.jpg')" contain height="300"></v-img>
       </v-flex>
       </v-layout>
-
-
+      <br>
+      <br>
 
   	</v-container>
 </template>
