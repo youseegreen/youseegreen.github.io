@@ -3,7 +3,7 @@
 	<v-container>
 		<v-layout text-xs-center mb-2 wrap>		
 			<v-flex>		
-				<v-img :src="require('../assets/profile_photo.jpg')" contain height="300"></v-img>
+				<v-img :src="require('../assets/images/profile/profile_photo.jpg')" contain height="300"></v-img>
 			</v-flex>			
 		</v-layout>
 		<v-layout text-xs-center mb-5 wrap>		

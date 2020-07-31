@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import Router from 'vue-router';
+import VueAnalytics from 'vue-analytics'
 import Home from './components/Home.vue';
 import Profile from './components/Profile.vue';
 import Projects from './components/Projects.vue';
@@ -13,6 +14,7 @@ import Others from './components/Others.vue';
 import O_Cpp_Tensorflow from './components/others_components/Cpp_Tensorflow.vue';
 import O_Vrm_for_Cluster from './components/others_components/vrm_for_cluster.vue';
 import O_Scheffe_Ura_Version from './components/others_components/Scheffe_Ura_version.vue';
+import O_Native_Plugin_Debug from './components/others_components/Native_Plugin_Debug.vue';
 
 
 
@@ -67,6 +69,11 @@ const Routes = [
     name: 'O_Scheffe_Ura_Version',
     component: O_Scheffe_Ura_Version,
   },
+  {
+    path: '/Others<Native_Plugin_debug>',
+    name: 'O_Native_Plugin_Debug',
+    component: O_Native_Plugin_Debug,
+  },
 ];
 
 
@@ -79,6 +86,10 @@ const router = new Router({
 
 
 Vue.use(Router);
+Vue.use(VueAnalytics, {
+  id: 'UA-174174903-1',
+  router
+})
 
 new Vue({
   router,

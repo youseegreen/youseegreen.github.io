@@ -125,11 +125,9 @@
 
 </style>
 
-
-<!-- jsonから読み込む用
-
+<!--
 <script lang="ts"> 
-import Publications from '@/static/data/publications.json';
+import Publications from '../assets/data/publications/publications.json';
 
 export default {
   name: 'Publications',
@@ -139,6 +137,6 @@ export default {
     };
   },
 };
- -->
+-->
  
 </script>

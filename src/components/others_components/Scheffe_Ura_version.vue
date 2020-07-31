@@ -1,7 +1,3 @@
-//mdを表示する
-//npm install marked raw-loader save-devを実行
-//参考https://hiroto-k.hatenablog.com/entry/2019/03/27/200000
-
 <template>
   	<v-container>
       <v-layout row wrap mt-3 mb-3>
@@ -21,10 +17,10 @@
       Vol.16, pp.78-80 (1959). (in Japanese)</li>
       </ul>
       </br>
-      <p>とよく引かれていたのですが、調べてみると品質管理で1959年に第16巻は出版していないということが判明。
+      <p>とよく引かれていたのですが、調べてみるとどうやら品質管理で1959年に第16巻は出版されていなさそう...
       <br>真相を明らかにすべく、品質管理が揃っている阪大吹田キャンパスの図書館に直行。</p>
       <br>
-      <h3>探索結果</h3>
+      <h3>調査結果</h3>
       <p>　1959年2月10日に発行された品質管理、第10巻、第2号のpp. 78-80に浦先生の変法が載っていました。
       <br>ですので、この論文を引く際は、</p>
       <ul>
@@ -34,18 +30,15 @@
       <br>
       <p>などとした方が良いでしょう。</p>
       <br>
-      <br>
-
 
       <v-layout>
       <v-flex lg3 lx3>
-      <v-img :src="require('../../assets/others/scheffe_ura_title.jpg')" contain height="300"></v-img>
+      <v-img :src="require('../../assets/images/others/scheffe_ura_title.jpg')" contain height="300"></v-img>
       </v-flex>
       <v-flex lg3 lx3>
-      <v-img :src="require('../../assets/others/scheffe_ura_paper.jpg')" contain height="300"></v-img>
+      <v-img :src="require('../../assets/images/others/scheffe_ura_paper.jpg')" contain height="300"></v-img>
       </v-flex>
       </v-layout>
-      <br>
       <br>
 
   	</v-container>

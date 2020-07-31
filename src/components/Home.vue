@@ -12,7 +12,7 @@
 		
 		<v-layout>
 			<v-flex xs12 mt-5 mb-5>
-				<v-img :src="require('../assets/home_photo.jpg')" contain width="100%"></v-img>
+				<v-img :src="require('../assets/images/home/home_photo.jpg')" contain width="100%"></v-img>
 			</v-flex>
 		</v-layout>
 		
@@ -186,7 +186,7 @@ export default class Home extends Vue {
 <style>
 
 .home-hero__content {
-  background: url("../assets/home_photo.jpg");
+  background: url("../assets/images/home/home_photo.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
