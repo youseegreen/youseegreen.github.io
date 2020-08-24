@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueMeta from 'vue-meta'
+import VueHead from 'vue-head' // 追加
 import './plugins/vuetify';
 import App from './App.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -29,37 +29,37 @@ const Routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。' }
+    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。', },
   },
   {
     path: '/Home',
     name: 'Home',
     component: Home,
-    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。' }
+    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。', },
   },
   {
     path: '/Profile',
     name: 'Profile',
     component: Profile,
-    meta: { title: 'Yushi Sato\'s Profile' }
+    meta: { title: 'Yushi Sato\'s Profile', },
   },
   {
     path: '/Projects',
     name: 'Projects',
     component: Projects,
-    meta: { title: 'Yushi Sato\'s Projects' }
+    meta: { title: 'Yushi Sato\'s Projects', },
   },
   {
     path: '/Publications',
     name: 'Publications',
     component: Publications,
-    meta: { title: 'Yushi Sato\'s Publications' }
+    meta: { title: 'Yushi Sato\'s Publications', },
   },
   {
     path: '/Others',
     name: 'Others',
     component: Others,
-    meta: { title: 'Yushi Sato\'s Other contents' }
+    meta: { title: 'Yushi Sato\'s Other contents', },
   },
   {
     path: '/Others<vrm_for_cluster>',
@@ -91,7 +91,8 @@ const router = new Router({
   linkActiveClass: 'active',
 });
 
-
+Vue.use(VueHead) // 追加
+Vue.config.productionTip = false
 Vue.use(Router);
 Vue.use(VueAnalytics, {
   id: 'UA-174174903-1',
