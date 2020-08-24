@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueMeta from 'vue-meta'
 import './plugins/vuetify';
 import App from './App.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -28,31 +29,37 @@ const Routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。' }
   },
   {
     path: '/Home',
     name: 'Home',
     component: Home,
+    meta: { title: 'Yushi Sato\'s HP', desc: '佐藤優志のホームページです。' }
   },
   {
     path: '/Profile',
     name: 'Profile',
     component: Profile,
+    meta: { title: 'Yushi Sato\'s Profile' }
   },
   {
     path: '/Projects',
     name: 'Projects',
     component: Projects,
+    meta: { title: 'Yushi Sato\'s Projects' }
   },
   {
     path: '/Publications',
     name: 'Publications',
     component: Publications,
+    meta: { title: 'Yushi Sato\'s Publications' }
   },
   {
     path: '/Others',
     name: 'Others',
     component: Others,
+    meta: { title: 'Yushi Sato\'s Other contents' }
   },
   {
     path: '/Others<vrm_for_cluster>',
