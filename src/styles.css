@@ -1,0 +1,151 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+body
+{
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0;
+}
+
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+.pt-2_5
+{
+  padding: 0.75rem 0rem 0rem 0rem;
+}
+
+.big-headline
+{
+  font-size: 28px;
+  text-transform: none;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.medium-headline
+{
+  font-size: 20px;
+  text-transform: none;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+/* Navigation Bar */
+.nav-link
+{
+  margin-left: 17px;
+  margin-right: 17px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.navbar-background
+{
+  background-color: #007641;
+  padding: 0px;
+}
+
+
+/* Footer */
+.footer
+{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background: hsl(220, 10%, 90%);
+  box-shadow: -50vw 0 hsl(220, 10%, 90%), 50vw 0 hsl(220, 10%, 90%);
+  text-align: center;
+}
+
+.footer-text-link
+{
+  color: #333333;
+  background-color: transparent;
+  text-decoration:none;
+  border-bottom:0rem;
+}
+
+.footer-text-link:hover
+{
+  color: #055622;
+  text-decoration: underline;
+  border-bottom:1rem;
+}
+
+/* CopyRight */
+.copyright
+{
+  color: #333333;
+  padding: 1rem;
+  margin: 0rem;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Barlow';
+  position: relative;
+  z-index: 200;
+}
+
+/* Buttons */
+/*
+  http://css3buttongenerator.com/
+*/
+.btn-text
+{
+  color: #ffffff;
+}
+
+.link-btn-square
+{
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background: #007641;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  border: solid #007641 2px;
+  text-decoration: none;
+  text-align: center;
+  cursor : pointer;
+}
+
+.link-btn-square:hover
+{
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.link-btn-square:hover > .btn-text
+{
+  color: #007641;
+}
+
+.search-found {
+  background-color: orange;
+}

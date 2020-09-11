@@ -1,0 +1,71 @@
+#home-photo {
+  margin-bottom: 20px;
+}
+
+/* News */
+.news-header
+{
+  text-align: left;
+  color: #007641;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.news-body
+{
+  text-align: left;
+  color: #000000;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.news-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.news-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.news-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.news-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
+
+/* 
+
+/*link*/
+.link-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
