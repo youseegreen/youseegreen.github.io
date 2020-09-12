@@ -43,12 +43,7 @@
             "assets": [
               "src/images",
               "src/sitemap.xml",
-              "src/googlee77c0e27540a35a8.html",
-              "src/profile/index.html",
-              "src/projects/index.html",
-              "src/publications/index.html",
-              "src/others/index.html",
-              "src/others/scheffe-ura-version/index.html"
+              "src/googlee77c0e27540a35a8.html"
             ],
             "styles": [
               "./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss",

@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
-    "deploy": "ng build --prod && ngh --branch=master --repo https://github.com/youseegreen/youseegreen.github.io.git"
+    "deploy-normal": "ng build --prod && ngh --branch=master --repo https://github.com/youseegreen/youseegreen.github.io.git",
+    "deploy": "ng build --prod && cd dist && mkdir profile projects publications others && echo profile projects publications others | xargs -n 1 cp -v index.html && cd ../src/app/ && find others -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/others && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../ && ngh --branch=master --repo https://github.com/youseegreen/youseegreen.github.io.git"
   },
   "private": true,
   "dependencies": {
