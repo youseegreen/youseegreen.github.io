@@ -1,0 +1,133 @@
+/*タイトル部分*/
+.others-title-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+  margin-bottom : 5.0rem;
+}
+
+.others-title
+{
+  text-align: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: #007641;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.others-title-date
+{
+  text-align: left;
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-left: 0.6rem;
+}
+
+
+.others-title-link
+{
+  color: #007641;
+}
+
+.others-title-link:hover
+{
+  color: #005621;
+  text-decoration: underline dotted;
+}
+
+
+.others-title-keywords
+{
+  text-align: left;
+  font-size: 16px;
+  color: #444444;
+  margin-left: 0.5rem;
+  margin-bottom : 3.0rem;
+}
+
+.others-title-abstract
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+/*本文*/
+.others-body-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.others-section
+{
+  margin-bottom: 5.0rem;
+}
+
+.others-sec-title
+{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.others-sec-title-link
+{
+  color: #000000;
+  text-decoration: underline dotted;
+}
+
+.others-sec-title-link:hover
+{
+  color: #004611;
+}
+
+.others-body
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.others-body-link
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+.others-body-link:hovor
+{
+  color: #111111;
+  text-decoration: underline dotted;
+}
+
+.others-body-strong
+{
+  color: #006441;
+}
+
+.others-image-layout
+{
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+
+.others-image
+{
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+}

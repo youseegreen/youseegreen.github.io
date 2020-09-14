@@ -10,7 +10,7 @@ import { ScheffeUraVersionComponent } from './scheffe-ura-version/scheffe-ura-ve
     declarations: [
         OthersComponent,
         OthersMainComponent,
-        ScheffeUraVersionComponent
+        ScheffeUraVersionComponent,
     ],
     imports: [
         CommonModule,

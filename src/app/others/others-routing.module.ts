@@ -11,7 +11,7 @@ const routes: Routes = [
             {
                 path: '', component: OthersMainComponent,
                 data: {
-                    title: 'Others | Yushi Sato\'s HP',
+                    title: 'Others | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のその他のページです。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Tips,Blog',
                     ogUrl: 'https://youseegreen.github.io/others/'
@@ -20,12 +20,12 @@ const routes: Routes = [
             {
                 path: 'scheffe-ura-version', component: ScheffeUraVersionComponent,
                 data: {
-                    title: 'Scheffe\'s Ura version | Yushi Sato\'s HP',
+                    title: 'Scheffe\'s Ura version | 佐藤 優志 (Yushi Sato)',
                     description: 'シェッフェの一対比較法の浦の変法の元論文について。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
                     ogUrl: 'https://youseegreen.github.io/others/scheffe-ura-version'
                 }
-            }
+            },
         ]
     }
 ];
