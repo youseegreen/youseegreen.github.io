@@ -19,7 +19,7 @@ const routes: Routes = [
   {
     path: 'profile', component: ProfileComponent,
     data: {
-      title: 'Profile | 佐藤 優志 (Yushi Sato)',
+      title: 'プロフィール | 佐藤 優志 (Yushi Sato)',
       description: '佐藤優志のプロフィールです。',
       keyword: '佐藤優志,youseegreen,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室,SENS,ExtendedHand,Humanware,ヒューマンウェア',
       ogUrl: 'https://youseegreen.github.io/profile'
@@ -28,7 +28,7 @@ const routes: Routes = [
   {
     path: 'projects', component: ProjectsComponent,
     data: {
-      title: 'Projects | 佐藤 優志 (Yushi Sato)',
+      title: 'プロジェクト | 佐藤 優志 (Yushi Sato)',
       description: '佐藤優志が関わっている研究プロジェクトです。',
       keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室,ExtendedHand,疑似触覚,fARFEEL',
       ogUrl: 'https://youseegreen.github.io/projects'
@@ -37,7 +37,7 @@ const routes: Routes = [
   {
     path: 'publications', component: PublicationsComponent,
     data: {
-      title: 'Publications | 佐藤 優志 (Yushi Sato)',
+      title: '発表業績 | 佐藤 優志 (Yushi Sato)',
       description: '佐藤優志の発表業績です。',
       keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室',
       ogUrl: 'https://youseegreen.github.io/publications'
