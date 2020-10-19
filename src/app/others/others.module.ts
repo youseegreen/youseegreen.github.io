@@ -11,6 +11,7 @@ import { StartVTuberComponent } from './start-vtuber/start-vtuber.component';
 import { StartVTuber2Component } from './start-vtuber-2/start-vtuber-2.component';
 import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-nativeplugin-tips.component';
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
+import { ABCJSComponent } from './abcjs/abcjs.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.compo
         StartVTuberComponent,
         StartVTuber2Component,
         UnityNativePluginTipsComponent,
-        UnityRealSenseComponent
+        UnityRealSenseComponent,
+        ABCJSComponent
     ],
     imports: [
         CommonModule,

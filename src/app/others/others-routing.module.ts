@@ -9,6 +9,7 @@ import { StartVTuberComponent } from './start-vtuber/start-vtuber.component';
 import { StartVTuber2Component } from './start-vtuber-2/start-vtuber-2.component';
 import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-nativeplugin-tips.component';
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
+import { ABCJSComponent } from './abcjs/abcjs.component';
 
 const routes: Routes = [
     {
@@ -86,7 +87,15 @@ const routes: Routes = [
                     ogUrl: 'https://youseegreen.github.io/others/unity-realsense'
                 }
             },
-
+            {
+                path: 'abcjs', component: ABCJSComponent,
+                data: {
+                    title: 'abcjsを用いて、ウェブページで楽譜を表示してみる | 佐藤 優志 (Yushi Sato)',
+                    description: 'abcjsを用いて、ウェブページで楽譜を表示してみる',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,Unity, RealSense, Native Plugins, c++, dll',
+                    ogUrl: 'https://youseegreen.github.io/others/abcjs'
+                }
+            },
 
         ]
     }
