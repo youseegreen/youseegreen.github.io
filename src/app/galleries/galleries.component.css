@@ -1,0 +1,133 @@
+/*タイトル部分*/
+.galleries-title-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+  margin-bottom : 5.0rem;
+}
+
+.galleries-title
+{
+  text-align: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: #007641;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.galleries-title-date
+{
+  text-align: left;
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-left: 0.6rem;
+}
+
+
+.galleries-title-link
+{
+  color: #007641;
+}
+
+.galleries-title-link:hover
+{
+  color: #005621;
+  text-decoration: underline dotted;
+}
+
+
+.galleries-title-keywords
+{
+  text-align: left;
+  font-size: 16px;
+  color: #444444;
+  margin-left: 0.5rem;
+  margin-bottom : 3.0rem;
+}
+
+.galleries-title-abstract
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+/*本文*/
+.galleries-body-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.galleries-section
+{
+  margin-bottom: 5.0rem;
+}
+
+.galleries-sec-title
+{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.galleries-sec-title-link
+{
+  color: #000000;
+  text-decoration: underline dotted;
+}
+
+.galleries-sec-title-link:hover
+{
+  color: #004611;
+}
+
+.galleries-body
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.galleries-body-link
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+.galleries-body-link:hovor
+{
+  color: #111111;
+  text-decoration: underline dotted;
+}
+
+.galleries-body-strong
+{
+  color: #006441;
+}
+
+.galleries-image-layout
+{
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+
+.galleries-image
+{
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+}
