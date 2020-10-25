@@ -13,7 +13,7 @@ const routes: Routes = [
                 data: {
                     title: '西国三十三めぐり | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のその他のページです。',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,Tips,Blog',
+                    keyword: '佐藤優志m ,youseegreen,Yushi Sato,Tips,Blog',
                     ogUrl: 'https://youseegreen.github.io/Saikoku33/'
                 }
             },

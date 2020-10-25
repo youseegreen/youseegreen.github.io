@@ -13,8 +13,6 @@ import { FirstTripComponent } from './first-trip/first-trip.component';
     declarations: [
         GalleriesComponent,
         GalleriesMainComponent,
-        Saikoku33Component,
-        ManholesComponent,
         FirstTripComponent,
     ],
     imports: [

@@ -1,5 +1,5 @@
 /*タイトル部分*/
-.others-title-layout
+.saikoku33-title-layout
 {
   width: 98%;
   margin-right: auto;
@@ -7,7 +7,7 @@
   margin-bottom : 5.0rem;
 }
 
-.others-title
+.saikoku33-title
 {
   text-align: left;
   font-size: 23px;
@@ -17,7 +17,7 @@
   margin-left: 0.5rem;
 }
 
-.others-title-date
+.saikoku33-title-date
 {
   text-align: left;
   font-size: 16px;
@@ -26,19 +26,19 @@
 }
 
 
-.others-title-link
+.saikoku33-title-link
 {
   color: #007641;
 }
 
-.others-title-link:hover
+.saikoku33-title-link:hover
 {
   color: #005621;
   text-decoration: underline dotted;
 }
 
 
-.others-title-keywords
+.saikoku33-title-keywords
 {
   text-align: left;
   font-size: 16px;
@@ -47,7 +47,7 @@
   margin-bottom : 3.0rem;
 }
 
-.others-title-abstract
+.saikoku33-title-abstract
 {
   text-align: left;
   font-size: 17px;
@@ -60,19 +60,19 @@
 
 
 /*本文*/
-.others-body-layout
+.saikoku33-body-layout
 {
   width: 98%;
   margin-right: auto;
   margin-left : auto;
 }
 
-.others-section
+.saikoku33-section
 {
   margin-bottom: 5.0rem;
 }
 
-.others-sec-title
+.saikoku33-sec-title
 {
   text-align: left;
   font-size: 20px;
@@ -82,18 +82,18 @@
   margin-left: 0.5rem;
 }
 
-.others-sec-title-link
+.saikoku33-sec-title-link
 {
   color: #000000;
   text-decoration: underline dotted;
 }
 
-.others-sec-title-link:hover
+.saikoku33-sec-title-link:hover
 {
   color: #004611;
 }
 
-.others-body
+.saikoku33-body
 {
   text-align: left;
   font-size: 17px;
@@ -102,30 +102,30 @@
   margin-left: 0.5rem;
 }
 
-.others-body-link
+.saikoku33-body-link
 {
   color: #000000;
   text-decoration: underline;
 }
 
-.others-body-link:hovor
+.saikoku33-body-link:hovor
 {
   color: #111111;
   text-decoration: underline dotted;
 }
 
-.others-body-strong
+.saikoku33-body-strong
 {
   color: #006441;
 }
 
-.others-image-layout
+.saikoku33-image-layout
 {
   margin-top: 3.0rem;
   margin-bottom: 3.0rem;
 }
 
-.others-image
+.saikoku33-image
 {
   width: 100%;
   text-align: center;

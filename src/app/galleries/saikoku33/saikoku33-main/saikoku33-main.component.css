@@ -1,11 +1,11 @@
-.others-image
+.saikoku33-image
 {
   width: 100%;
 }
 
 
 
-.others-title
+.saikoku33-title
 {
   text-align: left;
   font-size: 22px;
@@ -14,7 +14,7 @@
   color: #007641;
 }
 
-.others-body
+.saikoku33-body
 {
   text-align: left;
   font-size: 17px;
@@ -22,39 +22,39 @@
   margin-left: 1em;
 }
 
-.others-keyword
+.saikoku33-keyword
 {
   text-align: left;
   font-size: 17px;
   font-family: 'Roboto';
 }
 
-.others-abstract
+.saikoku33-abstract
 {
   text-align: left;
   font-size: 16px;
   font-family: 'Roboto';
 }
 
-.others-link
+.saikoku33-link
 {
   color: #007641;
   text-decoration: none;
 }
 
-.others-link:link
+.saikoku33-link:link
 {
   color: #058c36;
   text-decoration: none;
 }
 
-.others-link:visited
+.saikoku33-link:visited
 {
   color: #058c36;
   text-decoration: none;
 }
 
-.others-link:hover
+.saikoku33-link:hover
 {
   color: #005920;
   text-decoration: underline dotted;
