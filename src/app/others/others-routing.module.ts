@@ -10,6 +10,7 @@ import { StartVTuber2Component } from './start-vtuber-2/start-vtuber-2.component
 import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-nativeplugin-tips.component';
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
+import { PuyoBaseComponent } from './puyobase/puyobase.component';
 
 const routes: Routes = [
     {
@@ -31,6 +32,15 @@ const routes: Routes = [
                     description: 'シェッフェの一対比較法の浦の変法の元論文について。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
                     ogUrl: 'https://youseegreen.github.io/others/scheffe-ura-version'
+                }
+            },
+            {
+                path: 'puyobase', component: PuyoBaseComponent,
+                data: {
+                    title: 'ぷよべ～す（ぷよ譜生成ソフト）の公開 | 佐藤 優志 (Yushi Sato)',
+                    description: 'ぷよぷよの対戦動画からぷよ譜を自動生成するソフトを公開しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,ぷよぷよ,ぷよ譜,ぷよぷよクロニクル,c++,OpenCV',
+                    ogUrl: 'https://youseegreen.github.io/others/puyobase'
                 }
             },
             {
