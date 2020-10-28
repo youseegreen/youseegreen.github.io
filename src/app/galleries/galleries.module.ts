@@ -5,8 +5,6 @@ import { GalleriesRoutingModule } from './galleries-routing.module';
 import { GalleriesComponent } from './galleries.component';
 import { GalleriesMainComponent } from './galleries-main/galleries-main.component';
 
-import { Saikoku33Component } from './saikoku33/saikoku33.component';
-import { ManholesComponent } from './manholes/manholes.component';
 import { FirstTripComponent } from './first-trip/first-trip.component';
 
 @NgModule({
