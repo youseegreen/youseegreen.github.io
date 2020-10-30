@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { Saikoku33RoutingModule } from './saikoku33-routing.module';
 import { Saikoku33Component } from './saikoku33.component';
@@ -17,6 +18,7 @@ import { T1Component } from './t1/t1.component';
     ],
     imports: [
         CommonModule,
+        HttpClientModule,
         Saikoku33RoutingModule,
     ]
 })

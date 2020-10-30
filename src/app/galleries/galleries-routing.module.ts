@@ -15,9 +15,9 @@ const routes: Routes = [
             {
                 path: '', component: GalleriesMainComponent,
                 data: {
-                    title: 'その他 | 佐藤 優志 (Yushi Sato)',
+                    title: 'ギャラリー | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のギャラリーのページです。',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,Tips,Blog',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,Gellery,Blog',
                     ogUrl: 'https://youseegreen.github.io/Galleries/'
                 }
             },
@@ -26,13 +26,12 @@ const routes: Routes = [
             {
                 path: 'first-trip', component: FirstTripComponent,
                 data: {
-                    title: 'abcjsを用いて、ウェブページで楽譜を表示してみる | 佐藤 優志 (Yushi Sato)',
-                    description: 'abcjsを用いて、ウェブページで楽譜を表示してみる',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,Unity, RealSense, Native Plugins, c++, dll',
-                    ogUrl: 'https://youseegreen.github.io/galleries/abcjs'
+                    title: '18歳の18切符 | 佐藤 優志 (Yushi Sato)',
+                    description: '初旅の思い出です。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,中国地方,18切符',
+                    ogUrl: 'https://youseegreen.github.io/galleries/first-trip'
                 }
             },
-            { path: 'galleries/saikoku33', loadChildren: './saikoku33/saikoku33.module#Saikoku33Module' },
         ]
     }
 ];
