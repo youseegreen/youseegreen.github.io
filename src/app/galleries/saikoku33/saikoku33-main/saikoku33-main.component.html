@@ -17,35 +17,32 @@
 
 
   <ng-container *ngFor="let res of saikoku33">
+    <section class="card">
+      <img class="card-img" src="images/galleries/saikoku33/1_teaser.jpg" alt="青岸渡寺">
+      <div class="card-content">
+        <h1 class='saikoku33-title'>
+          <a routerLink={{res.link}} routerLinkActive="active" class="galleries-link">{{res.name}}</a>
+        </h1>
+      </div>
+      <!-- <p class="card-text">WebデザインやWebサイト制作、最新のWeb業界情報などを紹介していくサイト。</p>
+      <div class="card-link">
+        <a href="http://webcreatorbox.com/about">About</a>
+        <a href="http://webcreatorbox.com/">Website</a>
+      </div> -->
+    </section>
+
     <div class='row mb-5'>
       <!-- <div class='col-md-3'>
         <img src={{res.photoPass}} class='research-image'>
       </div> -->
       <div class='col-md-9'>
-        <div class='saikoku33-title'>
-          <a routerLink={{res.link}} routerLinkActive="active" class="galleries-link">{{res.name}}</a>
-        </div>
+
       </div>
     </div>
     <div class='row mb-5'></div>
   </ng-container>
 
 
-  <mat-toolbar color="primary"> Card view demo </mat-toolbar>
-  <div class="content">
-    <mat-card class="mat-elevation-z4">
-      <mat-card-header>
-        <mat-card-title>Himalayan Peaks</mat-card-title>
-      </mat-card-header>
-      <img mat-card-image src="image/home/home_photo.jpg" />
-      <mat-card-content>
-        <p>The Himalayas is a mountain range in Asia.</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button> <button mat-button>SHARE</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
 
   <!-- <ion-grid>
     <ion-row>

@@ -18,7 +18,6 @@ export class Saikoku33MainComponent implements OnInit {
 
   ngOnInit() {
     this.http.get<any[]>('data/saikoku33.json').subscribe(val => { this.saikoku33 = val });
-    console.log(this.saikoku33);
   }
 
 }
