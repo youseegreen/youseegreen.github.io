@@ -1,0 +1,17 @@
+[
+    {
+        "name": "一番寺：青岸渡寺",
+        "photoPass": "images/galleries/saikoku33/t1/home.jpg",
+        "link": "t1"
+    },
+    {
+        "name": "二番寺：紀三井寺",
+        "photoPass": "images/galleries/saikoku33/t2/home.jpg",
+        "link": "t2"
+    },
+    {
+        "name": "三番寺：粉河寺",
+        "photoPass": "images/galleries/saikoku33/t3/home.jpg",
+        "link": "t3"
+    }
+]
