@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="col">
-      <h3 class="headline mb-5">西国三十三所めぐり
+      <h3 class="headline mb-1">西国三十三所めぐり
         <hr />
       </h3>
     </div>
@@ -15,33 +15,20 @@
 
   <div id="saikoku33" class="saikoku33-body"></div>
 
-
-  <ng-container *ngFor="let res of saikoku33">
-    <section class="card">
-      <img class="card-img" src="images/galleries/saikoku33/1_teaser.jpg" alt="青岸渡寺">
-      <div class="card-content">
-        <h1 class='saikoku33-title'>
-          <a routerLink={{res.link}} routerLinkActive="active" class="galleries-link">{{res.name}}</a>
-        </h1>
-      </div>
-      <!-- <p class="card-text">WebデザインやWebサイト制作、最新のWeb業界情報などを紹介していくサイト。</p>
-      <div class="card-link">
-        <a href="http://webcreatorbox.com/about">About</a>
-        <a href="http://webcreatorbox.com/">Website</a>
-      </div> -->
-    </section>
-
-    <div class='row mb-5'>
-      <!-- <div class='col-md-3'>
-        <img src={{res.photoPass}} class='research-image'>
-      </div> -->
-      <div class='col-md-9'>
-
-      </div>
-    </div>
-    <div class='row mb-5'></div>
-  </ng-container>
-
+  <div id="cardlayout-wrap">
+    <!-- カードレイアウトをラッピング -->
+    <ng-container *ngFor="let res of saikoku33">
+      <section class="card">
+        <img class="card-img" src={{res.photoPass}} alt={{res.name}}>
+        <div class="card-content">
+          <h1 class='saikoku33-title'>
+            <a routerLink={{res.link}} routerLinkActive="active" class="saikoku33-link">{{res.name}}</a>
+          </h1>
+        </div>
+      </section>
+      <div class='row mb-5'></div>
+    </ng-container>
+  </div>
 
 
   <!-- <ion-grid>
@@ -56,18 +43,5 @@
       </ion-col>
     </ion-row>
   </ion-grid> -->
-
-
-  <div class='row mb-5'>
-    <div class='col-md-12'>
-      <div class='saikoku33-title'>
-        <a routerLink="/galleries/saikoku33/t1" routerLinkActive="active" class="saikoku33-link">一番寺：青岸渡寺</a></div>
-      <div class='saikoku33-abstract mt-3 ml-2'>
-        研究で得られたデータをシェッフェの一対比較法（浦の変法）で解析する機会があったのですが、<br />
-        いざ参考文献を引く際に大元の論文の正確な情報がなかなか見つからなかったので、その時の情報をば。
-      </div>
-    </div>
-  </div>
-
 
 </div>

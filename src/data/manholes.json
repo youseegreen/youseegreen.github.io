@@ -1,0 +1,65 @@
+[
+    {
+        "area": "北海道地方",
+        "prefecture": "北海道",
+        "city": "札幌市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "東北地方",
+        "prefecture": "宮城県",
+        "city": "仙台市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "関東地方：",
+        "prefecture": "埼玉県",
+        "city": "さいたま市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "中部地方",
+        "prefecture": "愛知県",
+        "city": "名古屋市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "東大阪市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "中国地方",
+        "prefecture": "鳥取県",
+        "city": "境港市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "四国地方",
+        "prefecture": "愛媛県",
+        "city": "松山市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "九州地方",
+        "prefecture": "長崎県",
+        "city": "長崎市",
+        "photoPass": "images/galleries/manholes/01_teaser.jpg",
+        "link": ""
+    },
+    {
+        "area": "沖縄地方",
+        "prefecture": "沖縄県",
+        "city": "那覇市",
+        "photoPass": "images/galleries/manholes/naha.jpg",
+        "link": ""
+    }
+]

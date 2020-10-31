@@ -4,10 +4,81 @@
 }
 
 
+.card {
+  margin: 30px auto;
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+}
+.card-link a:hover {
+  color: #0090aa;
+}
+
+
+#cardlayout-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  margin: 2em auto;
+  max-width: 960px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+/* カードレイアウト内の画像を幅いっぱいに表示 */
+#cardlayout-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* 最後の行が3列より少ない場合左寄せにレイアウトさせる */
+/* #cardlayout-wrap::after{
+  content: "";
+  display: block;
+  width: calc(100% / 3);
+} */
+
+
 
 .galleries-title
 {
-  text-align: left;
+  /* text-align: left; */
   font-size: 22px;
   font-family: 'Roboto';
   font-weight: bold;
