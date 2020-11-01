@@ -23,11 +23,53 @@
   <div id="manholes" class="manholes-body"></div>
   <div class='row mb-5'></div>
 
+  <div class="row">
+    <a class='link-btn-square ml-3 mb-3' (click)='clearQuery()'>
+      <span class='btn-text'>全て</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("北海道地方")'>
+      <span class='btn-text'>北海道地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("東北地方")'>
+      <span class='btn-text'>東北地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("関東地方")'>
+      <span class='btn-text'>関東地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("中部地方")'>
+      <span class='btn-text'>中部地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("近畿地方")'>
+      <span class='btn-text'>近畿地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("中国地方")'>
+      <span class='btn-text'>中国地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("四国地方")'>
+      <span class='btn-text'>四国地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("九州地方")'>
+      <span class='btn-text'>九州地方</span>
+    </a>
+
+  </div>
+
+
+
+
   <div id="manholes" class="manholes-body"></div>
 
   <div id="cardlayout-wrap">
     <!-- カードレイアウトをラッピング -->
-    <ng-container *ngFor="let res of manholes">
+    <ng-container *ngFor="let res of manholes | manholeFilter:'area':areaText:'prefecture':prefectureText">
       <section class=" card">
         <img class="card-img" src={{res.photoPass}} alt={{res.city}}>
         <div class="card-content">
