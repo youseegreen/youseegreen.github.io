@@ -1,0 +1,72 @@
+[
+    {
+        "name": "第一番　青岸渡寺",
+        "photoPass": "images/galleries/saikoku33/01_teaser.jpg",
+        "link": "t1"
+    },
+    {
+        "name": "第二番　金剛宝寺",
+        "photoPass": "images/galleries/saikoku33/02_teaser.jpg",
+        "link": "t2"
+    },
+    {
+        "name": "第三番　粉河寺",
+        "photoPass": "images/galleries/saikoku33/03_teaser.jpg",
+        "link": "t3"
+    },
+    {
+        "name": "第四番　施福寺",
+        "photoPass": "images/galleries/saikoku33/04_teaser.jpg",
+        "link": "t4"
+    },
+    {
+        "name": "第五番　葛井寺",
+        "photoPass": "images/galleries/saikoku33/05_teaser.jpg",
+        "link": "t5"
+    },
+    {
+        "name": "第六番　南法華寺",
+        "photoPass": "images/galleries/saikoku33/06_teaser.jpg",
+        "link": "t6"
+    },
+    {
+        "name": "第七番　龍蓋寺",
+        "photoPass": "images/galleries/saikoku33/07_teaser.jpg",
+        "link": "t7"
+    },
+    {
+        "name": "第八番　長谷寺",
+        "photoPass": "images/galleries/saikoku33/08_teaser.jpg",
+        "link": "t8"
+    },
+    {
+        "name": "第九番　南円堂",
+        "photoPass": "images/galleries/saikoku33/09_teaser.jpg",
+        "link": "t9"
+    },
+    {
+        "name": "第十番寺　三室戸寺",
+        "photoPass": "images/galleries/saikoku33/10_teaser.jpg",
+        "link": "t10"
+    },
+    {
+        "name": "第十一番　上醍醐寺",
+        "photoPass": "images/galleries/saikoku33/11_teaser.jpg",
+        "link": "t11"
+    },
+    {
+        "name": "第十二番　岩間寺",
+        "photoPass": "images/galleries/saikoku33/12_teaser.jpg",
+        "link": "t12"
+    },
+    {
+        "name": "第十三番　石山寺",
+        "photoPass": "images/galleries/saikoku33/13_teaser.jpg",
+        "link": "t13"
+    },
+    {
+        "name": "第十四番　園城寺",
+        "photoPass": "images/galleries/saikoku33/14_teaser.jpg",
+        "link": "t14"
+    }
+]
