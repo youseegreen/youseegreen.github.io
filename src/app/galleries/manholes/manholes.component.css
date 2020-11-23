@@ -1,0 +1,133 @@
+/*タイトル部分*/
+.manholes-title-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+  margin-bottom : 5.0rem;
+}
+
+.manholes-title
+{
+  text-align: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: #007641;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.manholes-title-date
+{
+  text-align: left;
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-left: 0.6rem;
+}
+
+
+.manholes-title-link
+{
+  color: #007641;
+}
+
+.manholes-title-link:hover
+{
+  color: #005621;
+  text-decoration: underline dotted;
+}
+
+
+.manholes-title-keywords
+{
+  text-align: left;
+  font-size: 16px;
+  color: #444444;
+  margin-left: 0.5rem;
+  margin-bottom : 3.0rem;
+}
+
+.manholes-title-abstract
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+/*本文*/
+.manholes-body-layout
+{
+  width: 98%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.manholes-section
+{
+  margin-bottom: 5.0rem;
+}
+
+.manholes-sec-title
+{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.manholes-sec-title-link
+{
+  color: #000000;
+  text-decoration: underline dotted;
+}
+
+.manholes-sec-title-link:hover
+{
+  color: #004611;
+}
+
+.manholes-body
+{
+  text-align: left;
+  font-size: 17px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.manholes-body-link
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+.manholes-body-link:hovor
+{
+  color: #111111;
+  text-decoration: underline dotted;
+}
+
+.manholes-body-strong
+{
+  color: #006441;
+}
+
+.manholes-image-layout
+{
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+
+.manholes-image
+{
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+}

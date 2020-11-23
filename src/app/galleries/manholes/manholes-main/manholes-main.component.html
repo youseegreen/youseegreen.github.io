@@ -1,0 +1,85 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+      <h3 class="headline mb-5">Manhole / マンホール
+        <hr />
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col manholes-body mb-2 ml-2">
+      　僕が全国各地で撮影したマンホールを紹介するだけのサイト。<br />
+      適切でない例も含まれている可能性があることを承知ください。
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+
+  <div id="manholes" class="manholes-body"></div>
+  <div class='row mb-5'></div>
+
+  <div class="row">
+    <a class='link-btn-square ml-3 mb-3' (click)='clearQuery()'>
+      <span class='btn-text'>全て</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("北海道地方")'>
+      <span class='btn-text'>北海道地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("東北地方")'>
+      <span class='btn-text'>東北地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("関東地方")'>
+      <span class='btn-text'>関東地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("中部地方")'>
+      <span class='btn-text'>中部地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("近畿地方")'>
+      <span class='btn-text'>近畿地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("中国地方")'>
+      <span class='btn-text'>中国地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("四国地方")'>
+      <span class='btn-text'>四国地方</span>
+    </a>
+
+    <a class='link-btn-square ml-3 mb-3' (click)='viewArea("九州地方")'>
+      <span class='btn-text'>九州地方</span>
+    </a>
+
+  </div>
+
+
+
+
+  <div id="manholes" class="manholes-body"></div>
+
+  <div id="cardlayout-wrap">
+    <!-- カードレイアウトをラッピング -->
+    <ng-container *ngFor="let res of manholes | manholeFilter:'area':areaText:'prefecture':prefectureText">
+      <section class=" card">
+        <img class="card-img" src={{res.photoPass}} alt={{res.city}}>
+        <div class="card-content">
+          <h1 class='manholes-title'>
+            <a routerLink={{res.link}} routerLinkActive="active" class="manholes-link">{{res.city}}</a>
+          </h1>
+        </div>
+      </section>
+      <div class='row mb-5'></div>
+    </ng-container>
+  </div>
+
+</div>

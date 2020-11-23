@@ -1,0 +1,53 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+      <h3 class="headline mb-1">西国三十三所めぐり
+        <hr />
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col manholes-body mb-2 ml-2">
+      　西国三十三か所めぐりのログです。
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+
+  <div id="saikoku33" class="saikoku33-body"></div>
+
+  <div id="cardlayout-wrap">
+    <!-- カードレイアウトをラッピング -->
+    <ng-container *ngFor="let res of saikoku33">
+      <section class="card">
+        <img class="card-img" src={{res.photoPass}} alt={{res.name}}>
+        <div class="card-content">
+          <h1 class='saikoku33-title'>
+            <a routerLink={{res.link}} routerLinkActive="active" class="saikoku33-link">{{res.name}}</a>
+          </h1>
+        </div>
+      </section>
+      <div class='row mb-5'></div>
+    </ng-container>
+  </div>
+
+
+  <!-- <ion-grid>
+    <ion-row>
+      <ion-col size-lg="3" size-md="4" size-sm="6" size="12" *ngFor="let article of articles; let i=index;">
+        <ion-card>
+          <img src="{{article.image}}" />
+          <ion-card-header>
+            <ion-card-subtitle>{{article.title}}</ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid> -->
+
+</div>
