@@ -14,16 +14,16 @@ const routes: Routes = [
                     title: 'マンホール | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のマンホールのページです。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Tips,Blog',
-                    ogUrl: 'https://youseegreen.github.io/Manholes/'
+                    ogUrl: 'https://youseegreen.github.io/galleries/manholes/'
                 }
             },
             {
                 path: 'osaka', component: OsakaComponent,
                 data: {
-                    title: '大阪のマンホール | 佐藤 優志 (Yushi Sato)',
-                    description: 'シェッフェの一対比較法の浦の変法の元論文について。',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
-                    ogUrl: 'https://youseegreen.github.io/Manholes/scheffe-ura-version'
+                    title: '大阪府のマンホール | 佐藤 優志 (Yushi Sato)',
+                    description: '大阪府内のマンホールです。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,大阪府,マンホール',
+                    ogUrl: 'https://youseegreen.github.io/galleries/manholes/osaka'
                 }
             },
         ]

@@ -12,18 +12,18 @@ const routes: Routes = [
                 path: '', component: Saikoku33MainComponent,
                 data: {
                     title: '西国三十三めぐり | 佐藤 優志 (Yushi Sato)',
-                    description: '佐藤優志のその他のページです。',
-                    keyword: '佐藤優志m ,youseegreen,Yushi Sato,Tips,Blog',
-                    ogUrl: 'https://youseegreen.github.io/Saikoku33/'
+                    description: '西国三十三か所めぐりのログです。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国,三十三,寺',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/'
                 }
             },
             {
                 path: 't1', component: T1Component,
                 data: {
-                    title: '一番寺 | 佐藤 優志 (Yushi Sato)',
-                    description: 'シェッフェの一対比較法の浦の変法の元論文について。',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
-                    ogUrl: 'https://youseegreen.github.io/Saikoku33/scheffe-ura-version'
+                    title: '第一番　青岸渡寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 一番寺 青岸渡寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,青岸渡寺,和歌山県',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t1/'
                 }
             },
         ]

@@ -128,6 +128,14 @@
         "link": "null"
     },
     {
+        "area": "近畿地方",
+        "prefecture": "滋賀県",
+        "city": "大津市",
+        "description": "ほげ",
+        "photoPass": "images/galleries/manholes/otsu.jpg",
+        "link": "null"
+    },
+    {
         "area": "中国地方",
         "prefecture": "広島県",
         "city": "因島（尾道市）",
@@ -813,6 +821,30 @@
         "city": "守山市",
         "description": "ほげ",
         "photoPass": "images/galleries/manholes/moriyama2.jpg",
+        "link": "null"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "大阪市",
+        "description": "ほげ",
+        "photoPass": "images/galleries/manholes/osaka.jpg",
+        "link": "null"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "東大阪市",
+        "description": "ほげ",
+        "photoPass": "images/galleries/manholes/higashiosaka1.jpg",
+        "link": "null"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "東大阪市",
+        "description": "ほげ",
+        "photoPass": "images/galleries/manholes/higashiosaka2.jpg",
         "link": "null"
     },
     {

@@ -53,5 +53,20 @@
         "name": "第十一番　上醍醐寺",
         "photoPass": "images/galleries/saikoku33/11_teaser.jpg",
         "link": "t11"
+    },
+    {
+        "name": "第十二番　岩間寺",
+        "photoPass": "images/galleries/saikoku33/12_teaser.jpg",
+        "link": "t12"
+    },
+    {
+        "name": "第十三番　石山寺",
+        "photoPass": "images/galleries/saikoku33/13_teaser.jpg",
+        "link": "t13"
+    },
+    {
+        "name": "第十四番　園城寺",
+        "photoPass": "images/galleries/saikoku33/14_teaser.jpg",
+        "link": "t14"
     }
 ]
