@@ -12,12 +12,15 @@ import { StartVTuber2Component } from './start-vtuber-2/start-vtuber-2.component
 import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-nativeplugin-tips.component';
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
+import { PuyoBaseComponent } from './puyobase/puyobase.component';
+
 
 @NgModule({
     declarations: [
         OthersComponent,
         OthersMainComponent,
         ScheffeUraVersionComponent,
+        PuyoBaseComponent,
         Cluster3DModelComponent,
         CppTensorflowComponent,
         StartVTuberComponent,
