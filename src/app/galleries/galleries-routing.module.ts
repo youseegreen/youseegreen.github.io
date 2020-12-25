@@ -3,8 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { GalleriesComponent } from './galleries.component';
 import { GalleriesMainComponent } from './galleries-main/galleries-main.component';
 
-import { Saikoku33Component } from './saikoku33/saikoku33.component';
-import { ManholesComponent } from './manholes/manholes.component';
+// import { Saikoku33Component } from './saikoku33/saikoku33.component';
+// import { ManholesComponent } from './manholes/manholes.component';
 import { FirstTripComponent } from './first-trip/first-trip.component';
 
 
@@ -21,8 +21,8 @@ const routes: Routes = [
                     ogUrl: 'https://youseegreen.github.io/Galleries/'
                 }
             },
-            { path: 'saikoku33', loadChildren: './saikoku33/saikoku33.module#Saikoku33Module' },
             { path: 'manholes', loadChildren: './manholes/manholes.module#ManholesModule' },
+            { path: 'saikoku33', loadChildren: './saikoku33/saikoku33.module#Saikoku33Module' },
             {
                 path: 'first-trip', component: FirstTripComponent,
                 data: {

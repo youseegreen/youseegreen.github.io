@@ -68,5 +68,35 @@
         "name": "第十四番　園城寺",
         "photoPass": "images/galleries/saikoku33/14_teaser.jpg",
         "link": "t14"
+    },
+    {
+        "name": "第十五番　今熊野観音寺",
+        "photoPass": "images/galleries/saikoku33/15_teaser.jpg",
+        "link": "t15"
+    },
+    {
+        "name": "第十六番　清水寺",
+        "photoPass": "images/galleries/saikoku33/16_teaser.jpg",
+        "link": "t16"
+    },
+    {
+        "name": "第十七番　六波羅蜜寺",
+        "photoPass": "images/galleries/saikoku33/17_teaser.jpg",
+        "link": "t17"
+    },
+    {
+        "name": "第十八番　六角堂",
+        "photoPass": "images/galleries/saikoku33/18_teaser.jpg",
+        "link": "t18"
+    },
+    {
+        "name": "第十九番　行願寺",
+        "photoPass": "images/galleries/saikoku33/19_teaser.jpg",
+        "link": "t19"
+    },
+    {
+        "name": "第二十番　善峯寺",
+        "photoPass": "images/galleries/saikoku33/20_teaser.jpg",
+        "link": "t20"
     }
 ]
