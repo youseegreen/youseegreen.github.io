@@ -13,6 +13,7 @@ import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
+import { DesktopHandComponent } from './desktophand/desktophand.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { PuyoBaseComponent } from './puyobase/puyobase.component';
         OthersMainComponent,
         ScheffeUraVersionComponent,
         PuyoBaseComponent,
+        DesktopHandComponent,
         Cluster3DModelComponent,
         CppTensorflowComponent,
         StartVTuberComponent,

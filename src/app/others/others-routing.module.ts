@@ -11,6 +11,7 @@ import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
+import { DesktopHandComponent } from './desktophand/desktophand.component';
 
 const routes: Routes = [
     {
@@ -41,6 +42,15 @@ const routes: Routes = [
                     description: 'ぷよぷよの対戦動画からぷよ譜を自動生成するソフトを公開しました。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,ぷよぷよ,ぷよ譜,ぷよぷよクロニクル,c++,OpenCV',
                     ogUrl: 'https://youseegreen.github.io/others/puyobase'
+                }
+            },
+            {
+                path: 'desktophand', component: DesktopHandComponent,
+                data: {
+                    title: 'デスクトップハンド（Windows） | 佐藤 優志 (Yushi Sato)',
+                    description: 'デスクトップ画面を自分の手のように操作するアプリの開発。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,ExtendedHand,Desktop,ポインタ,Widnwos',
+                    ogUrl: 'https://youseegreen.github.io/others/desktophand'
                 }
             },
             {
