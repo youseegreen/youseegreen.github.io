@@ -98,5 +98,25 @@
         "name": "第二十番　善峯寺",
         "photoPass": "images/galleries/saikoku33/20_teaser.jpg",
         "link": "t20"
+    },
+    {
+        "name": "第二十一番　穴太寺",
+        "photoPass": "images/galleries/saikoku33/21_teaser.jpg",
+        "link": "t21"
+    },
+    {
+        "name": "第二十二番　総持寺",
+        "photoPass": "images/galleries/saikoku33/22_teaser.jpg",
+        "link": "t22"
+    },
+    {
+        "name": "第二十三番　勝尾寺",
+        "photoPass": "images/galleries/saikoku33/23_teaser.jpg",
+        "link": "t23"
+    },
+    {
+        "name": "第二十四番　中山寺",
+        "photoPass": "images/galleries/saikoku33/24_teaser.jpg",
+        "link": "t24"
     }
 ]

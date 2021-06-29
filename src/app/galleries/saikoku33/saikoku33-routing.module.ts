@@ -24,6 +24,10 @@ import { T17Component } from './t17/t17.component';
 import { T18Component } from './t18/t18.component';
 import { T19Component } from './t19/t19.component';
 import { T20Component } from './t20/t20.component';
+import { T21Component } from './t21/t21.component';
+import { T22Component } from './t22/t22.component';
+import { T23Component } from './t23/t23.component';
+import { T24Component } from './t24/t24.component';
 
 
 
@@ -220,6 +224,42 @@ const routes: Routes = [
                     description: '西国三十三か所 二十番寺 善峯寺に訪問しました。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,善峯寺,京都市,京都府',
                     ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t20/'
+                }
+            },
+            {
+                path: 't21', component: T21Component,
+                data: {
+                    title: '第二十一番　穴太寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 二十一番寺 穴太寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,穴太寺,亀岡市,京都府',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t21/'
+                }
+            },
+            {
+                path: 't22', component: T22Component,
+                data: {
+                    title: '第二十二番　総持寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 二十二番寺 総持寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,総持寺,茨木市,大阪府',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t22/'
+                }
+            },
+            {
+                path: 't23', component: T23Component,
+                data: {
+                    title: '第二十三番　勝尾寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 二十三番寺 勝尾寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,勝尾寺,箕面市,大阪府',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t23/'
+                }
+            },
+            {
+                path: 't24', component: T24Component,
+                data: {
+                    title: '第二十四番　中山寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 二十四番寺 中山寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,中山寺,宝塚市,兵庫県',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t24/'
                 }
             }
         ]

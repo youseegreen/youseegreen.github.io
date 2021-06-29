@@ -27,6 +27,10 @@ import { T17Component } from './t17/t17.component';
 import { T18Component } from './t18/t18.component';
 import { T19Component } from './t19/t19.component';
 import { T20Component } from './t20/t20.component';
+import { T21Component } from './t21/t21.component';
+import { T22Component } from './t22/t22.component';
+import { T23Component } from './t23/t23.component';
+import { T24Component } from './t24/t24.component';
 
 
 @NgModule({
@@ -52,7 +56,11 @@ import { T20Component } from './t20/t20.component';
         T17Component,
         T18Component,
         T19Component,
-        T20Component
+        T20Component,
+        T21Component,
+        T22Component,
+        T23Component,
+        T24Component
     ],
     imports: [
         CommonModule,
