@@ -1,19 +1,4 @@
-.project-image
-{
-  width: 100%;
-}
-
-.project-title
-{
-  text-align: left;
-  font-size: 23px;
-  font-family: 'Roboto';
-  font-weight: bold;
-  color: #007641;
-}
-
-/*タイトル部分*/
-.project-title-layout
+.projects-title-layout
 {
   width: 98%;
   margin-right: auto;
@@ -21,7 +6,17 @@
   margin-bottom : 5.0rem;
 }
 
-.project-title-date
+.projects-title
+{
+  text-align: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: #007641;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.projects-title-date
 {
   text-align: left;
   font-size: 16px;
@@ -29,26 +24,19 @@
   margin-left: 0.6rem;
 }
 
-.project-title-link
+
+.projects-title-link
 {
   color: #007641;
 }
 
-.project-title-link:hover
+.projects-title-link:hover
 {
   color: #005621;
   text-decoration: underline dotted;
 }
 
-.project-title-publication
-{
-  text-align: left;
-  font-size: 16px;
-  color: #444444;
-  margin-left: 0.5rem;
-}
-
-.project-title-keywords
+.projects-title-keywords
 {
   text-align: left;
   font-size: 16px;
@@ -57,55 +45,34 @@
   margin-bottom : 3.0rem;
 }
 
-.project-title-abstract
+.projects-title-abstract
 {
   text-align: left;
   font-size: 17px;
   color: #000000;
   margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.project-link
-{
-  color: #058c36;
-  text-decoration: none;
-}
-
-.project-link:link
-{
-  color: #058c36;
-  text-decoration: none;
-}
-
-.project-link:visited
-{
-  color: #058c36;
-  text-decoration: none;
-}
-
-.project-link:hover
-{
-  color: #005920;
-  text-decoration: underline dotted;
 }
 
 
 
-/*本文*/
-.project-body-layout
+
+
+.projects-body-layout
 {
   width: 98%;
   margin-right: auto;
   margin-left : auto;
 }
 
-.project-section
+
+.projects-section
 {
   margin-bottom: 5.0rem;
 }
 
-.project-sec-title
+
+
+.projects-sub-title
 {
   text-align: left;
   font-size: 20px;
@@ -115,18 +82,18 @@
   margin-left: 0.5rem;
 }
 
-.project-sec-title-link
+.projects-sub-title-link
 {
   color: #000000;
   text-decoration: underline dotted;
 }
 
-.project-sec-title-link:hover
+.projects-sub-title-link:hover
 {
   color: #004611;
 }
 
-.project-body
+.projects-body
 {
   text-align: left;
   font-size: 17px;
@@ -135,32 +102,67 @@
   margin-left: 0.5rem;
 }
 
-.project-body-link
+.projects-body-link
 {
   color: #000000;
   text-decoration: underline;
 }
 
-.project-body-link:hovor
+.projects-body-link:hovor
 {
   color: #111111;
   text-decoration: underline dotted;
 }
 
-.project-body-strong
+.projects-body-strong
 {
   color: #006441;
 }
 
-.project-image-layout
+.projects-image-layout
 {
   margin-top: 3.0rem;
   margin-bottom: 3.0rem;
 }
 
-.project-image
+.projects-image
 {
   width: 100%;
   text-align: center;
   margin:0 auto;
 }
+
+
+
+
+
+.projects-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.projects-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.projects-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.projects-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
+
+.projects-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
+

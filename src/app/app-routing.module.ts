@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsModule } from './projects/projects.module';
 import { PublicationsComponent } from './publications/publications.component';
 import { GalleriesModule } from './galleries/galleries.module';
 import { OthersModule } from './others/others.module';
@@ -26,15 +26,7 @@ const routes: Routes = [
       ogUrl: 'https://youseegreen.github.io/profile'
     }
   },
-  {
-    path: 'projects', component: ProjectsComponent,
-    data: {
-      title: 'プロジェクト | 佐藤 優志 (Yushi Sato)',
-      description: '佐藤優志が関わっている研究プロジェクトです。',
-      keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室,ExtendedHand,疑似触覚,fARFEEL',
-      ogUrl: 'https://youseegreen.github.io/projects'
-    }
-  },
+  { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
   {
     path: 'publications', component: PublicationsComponent,
     data: {
