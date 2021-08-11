@@ -10,6 +10,8 @@
   font-family: 'Roboto';
   font-weight: bold;
   color: #007641;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 /*タイトル部分*/
@@ -163,4 +165,18 @@
   width: 100%;
   text-align: center;
   margin:0 auto;
+}
+
+#popup{
+  width:30%;
+  line-height:100px;
+  background:#000;
+  padding:0 4%;
+  box-sizing:border-box;
+  display:none;
+  position:fixed;
+  top:50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
