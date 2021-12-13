@@ -28,6 +28,7 @@ import { T21Component } from './t21/t21.component';
 import { T22Component } from './t22/t22.component';
 import { T23Component } from './t23/t23.component';
 import { T24Component } from './t24/t24.component';
+import { T25Component } from './t25/t25.component';
 
 
 
@@ -260,6 +261,15 @@ const routes: Routes = [
                     description: '西国三十三か所 二十四番寺 中山寺に訪問しました。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,中山寺,宝塚市,兵庫県',
                     ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t24/'
+                }
+            },
+            {
+                path: 't25', component: T25Component,
+                data: {
+                    title: '第二十五番　播州清水寺 | 佐藤 優志 (Yushi Sato)',
+                    description: '西国三十三か所 二十五番寺 播州清水寺に訪問しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,西国三十三,播州清水寺,加藤市,兵庫県',
+                    ogUrl: 'https://youseegreen.github.io/galleries/saikoku33/t25/'
                 }
             }
         ]

@@ -118,5 +118,10 @@
         "name": "第二十四番　中山寺",
         "photoPass": "images/galleries/saikoku33/24_teaser.jpg",
         "link": "t24"
+    },
+    {
+        "name": "第二十五番　播州清水寺",
+        "photoPass": "images/galleries/saikoku33/25_teaser.jpg",
+        "link": "t25"
     }
 ]

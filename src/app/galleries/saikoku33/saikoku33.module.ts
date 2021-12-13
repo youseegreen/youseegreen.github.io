@@ -31,6 +31,7 @@ import { T21Component } from './t21/t21.component';
 import { T22Component } from './t22/t22.component';
 import { T23Component } from './t23/t23.component';
 import { T24Component } from './t24/t24.component';
+import { T25Component } from './t25/t25.component';
 
 
 @NgModule({
@@ -60,7 +61,8 @@ import { T24Component } from './t24/t24.component';
         T21Component,
         T22Component,
         T23Component,
-        T24Component
+        T24Component,
+        T25Component
     ],
     imports: [
         CommonModule,
