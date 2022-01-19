@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hagbot',
-  templateUrl: './hagbot.component.html',
+  selector: 'app-hugbot',
+  templateUrl: './hugbot.component.html',
   styleUrls: ['../projects.component.css']
 })
-export class HagbotComponent implements OnInit {
+export class HugbotComponent implements OnInit {
 
   constructor() { }
 

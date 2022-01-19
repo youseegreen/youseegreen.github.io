@@ -7,7 +7,7 @@ import { EH_PHFComponent } from './eh_phf/eh_phf.component';
 import { fARFEELComponent } from './farfeel/farfeel.component';
 import { Responsive_EHComponent } from './responsive_eh/responsive_eh.component';
 import { DesktopHandComponent } from './desktophand/desktophand.component';
-import { HagbotComponent } from './hagbot/hagbot.component';
+import { HugbotComponent } from './hugbot/hugbot.component';
 
 
 const routes: Routes = [
@@ -60,12 +60,12 @@ const routes: Routes = [
                 }
             },
             {
-                path: 'hagbot', component: HagbotComponent,
+                path: 'hugbot', component: HugbotComponent,
                 data: {
-                    title: 'Hagbot | 佐藤 優志 (Yushi Sato)',
-                    description: 'Hagbot : ハグインタラクションにおけるロボットの動き方によるコミュニケーション手法の調査',
-                    keyword: '佐藤優志,youseegreen,Yushi Sato,Hagbot,hag interaction,emotion',
-                    ogUrl: 'https://youseegreen.github.io/projects/hagbot'
+                    title: 'Hugbot | 佐藤 優志 (Yushi Sato)',
+                    description: 'Hugbot : ハグインタラクションにおけるロボットの動き方によるコミュニケーション手法の調査',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,Hugbot,hug interaction,emotion',
+                    ogUrl: 'https://youseegreen.github.io/projects/hugbot'
                 }
             },
         ]

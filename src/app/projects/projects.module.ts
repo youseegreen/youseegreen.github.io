@@ -8,7 +8,7 @@ import { EH_PHFComponent } from './eh_phf/eh_phf.component';
 import { fARFEELComponent } from './farfeel/farfeel.component';
 import { Responsive_EHComponent } from './responsive_eh/responsive_eh.component';
 import { DesktopHandComponent } from './desktophand/desktophand.component';
-import { HagbotComponent } from './hagbot/hagbot.component';
+import { HugbotComponent } from './hugbot/hugbot.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +18,7 @@ import { HagbotComponent } from './hagbot/hagbot.component';
         fARFEELComponent,
         Responsive_EHComponent,
         DesktopHandComponent,
-        HagbotComponent
+        HugbotComponent
     ],
     imports: [
         CommonModule,
