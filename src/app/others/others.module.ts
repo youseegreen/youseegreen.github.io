@@ -13,6 +13,7 @@ import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
+import { DesktopMovieComponent } from './desktop-movie/desktop-movie.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { PuyoBaseComponent } from './puyobase/puyobase.component';
         StartVTuber2Component,
         UnityNativePluginTipsComponent,
         UnityRealSenseComponent,
-        ABCJSComponent
+        ABCJSComponent,
+        DesktopMovieComponent
     ],
     imports: [
         CommonModule,

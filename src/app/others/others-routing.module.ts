@@ -11,6 +11,7 @@ import { UnityNativePluginTipsComponent } from './unity-nativeplugin-tips/unity-
 import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.component';
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
+import { DesktopMovieComponent } from './desktop-movie/desktop-movie.component';
 
 const routes: Routes = [
     {
@@ -32,6 +33,15 @@ const routes: Routes = [
                     description: 'シェッフェの一対比較法の浦の変法の元論文について。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
                     ogUrl: 'https://youseegreen.github.io/others/scheffe-ura-version'
+                }
+            },
+            {
+                path: 'desktop-movie', component: DesktopMovieComponent,
+                data: {
+                    title: '動くデスクトップ壁紙ソフト（Windows） | 佐藤 優志 (Yushi Sato)',
+                    description: 'Windowsでデスクトップ壁紙を動く壁紙にするソフトを作成しました。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,動く壁紙,WallPaper Engine,c++',
+                    ogUrl: 'https://youseegreen.github.io/others/desktop-movie'
                 }
             },
             {
