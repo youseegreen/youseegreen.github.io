@@ -12,6 +12,7 @@ import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.compo
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
 import { DesktopMovieComponent } from './desktop-movie/desktop-movie.component';
+import { Pptx2FigsComponent } from './pptx2figs/pptx2figs.component';
 
 const routes: Routes = [
     {
@@ -35,6 +36,15 @@ const routes: Routes = [
                     ogUrl: 'https://youseegreen.github.io/others/scheffe-ura-version'
                 }
             },
+            {
+                path: 'pptx2figs', component: Pptx2FigsComponent,
+                data: {
+                    title: 'powerpointで作成した複数の図を楽にpdf化するプログラム | 佐藤 優志 (Yushi Sato)',
+                    description: 'powerpointで作成した複数の図を楽にpdf化するプログラム',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,Python, python-pptx, pywin32, powerpoint, pdf',
+                    ogUrl: 'https://youseegreen.github.io/others/pptx2figs'
+                }
+            },            
             {
                 path: 'desktop-movie', component: DesktopMovieComponent,
                 data: {

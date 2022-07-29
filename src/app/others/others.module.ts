@@ -14,7 +14,7 @@ import { UnityRealSenseComponent } from './unity-realsense/unity-realsense.compo
 import { ABCJSComponent } from './abcjs/abcjs.component';
 import { PuyoBaseComponent } from './puyobase/puyobase.component';
 import { DesktopMovieComponent } from './desktop-movie/desktop-movie.component';
-
+import { Pptx2FigsComponent } from './pptx2figs/pptx2figs.component';
 
 @NgModule({
     declarations: [
@@ -29,7 +29,8 @@ import { DesktopMovieComponent } from './desktop-movie/desktop-movie.component';
         UnityNativePluginTipsComponent,
         UnityRealSenseComponent,
         ABCJSComponent,
-        DesktopMovieComponent
+        DesktopMovieComponent,
+        Pptx2FigsComponent
     ],
     imports: [
         CommonModule,
