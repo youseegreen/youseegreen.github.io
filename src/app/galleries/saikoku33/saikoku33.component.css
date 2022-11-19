@@ -44,7 +44,7 @@
   font-size: 16px;
   color: #444444;
   margin-left: 0.5rem;
-  margin-bottom : 3.0rem;
+  /* margin-bottom : 3.0rem; */
 }
 
 .saikoku33-title-abstract
@@ -129,5 +129,5 @@
 {
   width: 100%;
   text-align: center;
-  margin:0 auto;
+  margin:auto auto auto auto;
 }

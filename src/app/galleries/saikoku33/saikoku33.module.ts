@@ -32,7 +32,17 @@ import { T22Component } from './t22/t22.component';
 import { T23Component } from './t23/t23.component';
 import { T24Component } from './t24/t24.component';
 import { T25Component } from './t25/t25.component';
-
+import { T26Component } from './t26/t26.component';
+import { T27Component } from './t27/t27.component';
+import { T28Component } from './t28/t28.component';
+import { T29Component } from './t29/t29.component';
+import { T30Component } from './t30/t30.component';
+import { T31Component } from './t31/t31.component';
+import { T32Component } from './t32/t32.component';
+import { T33Component } from './t33/t33.component';
+import { B1Component } from './b1/b1.component';
+import { B2Component } from './b2/b2.component';
+import { B3Component } from './b3/b3.component';
 
 @NgModule({
     declarations: [
@@ -62,7 +72,18 @@ import { T25Component } from './t25/t25.component';
         T22Component,
         T23Component,
         T24Component,
-        T25Component
+        T25Component,
+        T26Component,
+        T27Component,
+        T28Component,
+        T29Component,
+        T30Component,
+        T31Component,
+        T32Component,
+        T33Component,
+        B1Component,
+        B2Component,
+        B3Component
     ],
     imports: [
         CommonModule,

@@ -145,7 +145,27 @@
     "link": "t29"
   },
   {
-    "name": "番外一　法起院",
+    "name": "第三十番　宝厳寺",
+    "photoPass": "images/galleries/saikoku33/30_teaser.jpg",
+    "link": "t30"
+  },
+  {
+    "name": "第三十一番　長命寺",
+    "photoPass": "images/galleries/saikoku33/31_teaser.jpg",
+    "link": "t31"
+  },
+  {
+    "name": "第三十二番　観音正寺",
+    "photoPass": "images/galleries/saikoku33/32_teaser.jpg",
+    "link": "t32"
+  },
+  {
+    "name": "第三十三番　華厳寺",
+    "photoPass": "images/galleries/saikoku33/33_teaser.jpg",
+    "link": "t33"
+  },
+  {
+    "name": "番外一　花山院菩提寺",
     "photoPass": "images/galleries/saikoku33/b1_teaser.jpg",
     "link": "b1"
   },
@@ -155,7 +175,7 @@
     "link": "b2"
   },
   {
-    "name": "番外三　花山院",
+    "name": "番外三　法起院",
     "photoPass": "images/galleries/saikoku33/b3_teaser.jpg",
     "link": "b3"
   }
