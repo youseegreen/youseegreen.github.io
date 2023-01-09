@@ -2099,6 +2099,15 @@
   {
       "area": "近畿地方",
       "prefecture": "大阪府",
+      "city": "高槻市",
+      "hiragana": "たかつきし",
+      "photoPass": "images/galleries/manholes/takatsukishi00.jpg",
+      "link": "null",
+      "photoDate": "2023.01"
+  },
+  {
+      "area": "近畿地方",
+      "prefecture": "大阪府",
       "city": "豊中市",
       "hiragana": "とよなかし",
       "photoPass": "images/galleries/manholes/toyonakashi00.jpg",
