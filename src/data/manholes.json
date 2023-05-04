@@ -2045,6 +2045,15 @@
     {
         "area": "近畿地方",
         "prefecture": "大阪府",
+        "city": "大阪市",
+        "hiragana": "おおさかし",
+        "photoPath": "images/galleries/manholes/oosakashi04.jpg",
+        "link": "null",
+        "photoDate": "2023.05"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
         "city": "大阪府流域下水道",
         "hiragana": "おおさかふりゅういきげすいどう",
         "photoPath": "images/galleries/manholes/oosakafuryuuikigesuidou00.jpg",
@@ -2644,6 +2653,15 @@
         "photoPath": "images/galleries/manholes/ikomashi02.jpg",
         "link": "null",
         "photoDate": "2017.03"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "生駒市",
+        "hiragana": "いこまし",
+        "photoPath": "images/galleries/manholes/ikomashi03.jpg",
+        "link": "null",
+        "photoDate": "NULL."
     },
     {
         "area": "近畿地方",
