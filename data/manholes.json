@@ -2567,6 +2567,15 @@
     {
         "area": "近畿地方",
         "prefecture": "兵庫県",
+        "city": "西宮市",
+        "hiragana": "にしのみやし",
+        "photoPath": "images/galleries/manholes/nishinomiyashi01.jpg",
+        "link": "null",
+        "photoDate": "2023.05"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "兵庫県",
         "city": "西脇市",
         "hiragana": "にしわきし",
         "photoPath": "images/galleries/manholes/nishiwakishi00.jpg",
