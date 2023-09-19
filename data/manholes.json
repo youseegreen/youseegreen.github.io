@@ -1676,11 +1676,47 @@
     {
         "area": "近畿地方",
         "prefecture": "三重県",
+        "city": "志摩市",
+        "hiragana": "しまし",
+        "photoPath": "images/galleries/manholes/shimashi00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "志摩市",
+        "hiragana": "しまし",
+        "photoPath": "images/galleries/manholes/shimashi01.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "中部電力",
+        "hiragana": "ちゅうぶでんりょく",
+        "photoPath": "images/galleries/manholes/chuubudenryoku00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
         "city": "鳥羽市",
         "hiragana": "とばし",
         "photoPath": "images/galleries/manholes/tobashi00.jpg",
         "link": "null",
         "photoDate": "2022.5"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "鳥羽市",
+        "hiragana": "とばし",
+        "photoPath": "images/galleries/manholes/tobashi01.jpg",
+        "link": "null",
+        "photoDate": "2023.9"
     },
     {
         "area": "近畿地方",
@@ -1694,11 +1730,65 @@
     {
         "area": "近畿地方",
         "prefecture": "三重県",
+        "city": "ポケふた（志摩市）",
+        "hiragana": "ぽけふた（しまし）",
+        "photoPath": "images/galleries/manholes/pokefuta_shimashi00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "ポケふた（鳥羽市）",
+        "hiragana": "ぽけふた（とばし）",
+        "photoPath": "images/galleries/manholes/pokefuta_tobashi00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "ポケふた（明和町）",
+        "hiragana": "ぽけふた（めいわちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_meiwachou00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "松阪市",
+        "hiragana": "まつさかし",
+        "photoPath": "images/galleries/manholes/matsusakashi00.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "松阪市",
+        "hiragana": "まつさかし",
+        "photoPath": "images/galleries/manholes/matsusakashi01.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
         "city": "明和町（三重県）",
         "hiragana": "めいわちょう（みえけん）",
         "photoPath": "images/galleries/manholes/meiwachou_mieken00.jpg",
         "link": "null",
         "photoDate": "2022.5"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "三重県",
+        "city": "明和町（三重県）",
+        "hiragana": "めいわちょう（みえけん）",
+        "photoPath": "images/galleries/manholes/meiwachou_mieken01.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
     },
     {
         "area": "近畿地方",
@@ -2122,6 +2212,15 @@
         "photoPath": "images/galleries/manholes/takatsukishi00.jpg",
         "link": "null",
         "photoDate": "2023.01"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "高槻市",
+        "hiragana": "たかつきし",
+        "photoPath": "images/galleries/manholes/takatsukishi01.jpg",
+        "link": "null",
+        "photoDate": "2023.09"
     },
     {
         "area": "近畿地方",
