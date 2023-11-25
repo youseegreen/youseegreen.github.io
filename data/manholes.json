@@ -4,7 +4,7 @@
         "prefecture": "北海道",
         "city": "旭川市",
         "hiragana": "あかひかわし",
-        "photoPath": "images/galleries/manholes/akahikawashi00.jpg",
+        "photoPath": "images/galleries/manholes/asahikawashi00.jpg",
         "link": "null",
         "photoDate": "2017.08"
     },
@@ -13,7 +13,7 @@
         "prefecture": "北海道",
         "city": "旭川市",
         "hiragana": "あかひかわし",
-        "photoPath": "images/galleries/manholes/akahikawashi01.jpg",
+        "photoPath": "images/galleries/manholes/asahikawashi01.jpg",
         "link": "null",
         "photoDate": "2017.08"
     },
@@ -22,7 +22,7 @@
         "prefecture": "北海道",
         "city": "旭川市",
         "hiragana": "あかひかわし",
-        "photoPath": "images/galleries/manholes/akahikawashi02.jpg",
+        "photoPath": "images/galleries/manholes/asahikawashi02.jpg",
         "link": "null",
         "photoDate": "2017.08"
     },
@@ -31,7 +31,7 @@
         "prefecture": "北海道",
         "city": "旭川市",
         "hiragana": "あかひかわし",
-        "photoPath": "images/galleries/manholes/akahikawashi03.jpg",
+        "photoPath": "images/galleries/manholes/asahikawashi03.jpg",
         "link": "null",
         "photoDate": "2017.08"
     },
@@ -40,7 +40,7 @@
         "prefecture": "北海道",
         "city": "旭川市",
         "hiragana": "あかひかわし",
-        "photoPath": "images/galleries/manholes/akahikawashi04.jpg",
+        "photoPath": "images/galleries/manholes/asahikawashi04.jpg",
         "link": "null",
         "photoDate": "2017.08"
     },
@@ -2171,6 +2171,15 @@
     {
         "area": "近畿地方",
         "prefecture": "大阪府",
+        "city": "門真市",
+        "hiragana": "かどまし",
+        "photoPath": "images/galleries/manholes/kadomashi01.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
         "city": "堺市",
         "hiragana": "さかいし",
         "photoPath": "images/galleries/manholes/sakaishi00.jpg",
@@ -2405,6 +2414,15 @@
     {
         "area": "近畿地方",
         "prefecture": "大阪府",
+        "city": "守口市",
+        "hiragana": "もりぐちし",
+        "photoPath": "images/galleries/manholes/moriguchishi01.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
         "city": "八尾市",
         "hiragana": "やおし",
         "photoPath": "images/galleries/manholes/yaoshi00.jpg",
@@ -2420,6 +2438,24 @@
         "link": "null",
         "photoDate": "NULL."
     },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "八尾市",
+        "hiragana": "やおし",
+        "photoPath": "images/galleries/manholes/yaoshi02.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "大阪府",
+        "city": "八尾市",
+        "hiragana": "やおし",
+        "photoPath": "images/galleries/manholes/yaoshi03.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },        
     {
         "area": "近畿地方",
         "prefecture": "兵庫県",
@@ -2738,6 +2774,33 @@
     {
         "area": "近畿地方",
         "prefecture": "奈良県",
+        "city": "斑鳩町",
+        "hiragana": "いかるがちょう",
+        "photoPath": "images/galleries/manholes/ikarugacho00.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "斑鳩町",
+        "hiragana": "いかるがちょう",
+        "photoPath": "images/galleries/manholes/ikarugacho01.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "斑鳩町",
+        "hiragana": "いかるがちょう",
+        "photoPath": "images/galleries/manholes/ikarugacho02.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
         "city": "生駒市",
         "hiragana": "いこまし",
         "photoPath": "images/galleries/manholes/ikomashi00.jpg",
@@ -2816,6 +2879,51 @@
         "link": "null",
         "photoDate": "2016.11"
     },
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "ポケふた（斑鳩町）",
+        "hiragana": "ぽけふた（いかるがちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_ikarugacho00.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "ポケふた（斑鳩町）",
+        "hiragana": "ぽけふた（いかるがちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_ikarugacho01.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "ポケふた（斑鳩町）",
+        "hiragana": "ぽけふた（いかるがちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_ikarugacho02.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "ポケふた（斑鳩町）",
+        "hiragana": "ぽけふた（いかるがちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_ikarugacho03.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
+    {
+        "area": "近畿地方",
+        "prefecture": "奈良県",
+        "city": "ポケふた（斑鳩町）",
+        "hiragana": "ぽけふた（いかるがちょう）",
+        "photoPath": "images/galleries/manholes/pokefuta_ikarugacho04.jpg",
+        "link": "null",
+        "photoDate": "2023.11"
+    },    
     {
         "area": "近畿地方",
         "prefecture": "奈良県",
