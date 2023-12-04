@@ -9,6 +9,9 @@ export class ManholeFilterPipe implements PipeTransform {
         if (col.length === 0 || value.length === 0) {
             return items;
         }
-        return items.filter(x => x[col] === value);
+        if (value === "ポケふた") 
+            return items.filter(x => (x["city"] as String).substring(0, 4) === "ポケふた");
+        else 
+            return items.filter(x => x[col] === value);
     }
 }

@@ -17,7 +17,6 @@ export class ManholesMainComponent implements OnInit {
     this.areaText = '';
     this.prefectureText = '';
     this.http.get<any[]>('data/manholes.json').subscribe(val => { this.manholes = val });
-    console.log(this.manholes);
   }
 
   viewArea(input: String) {
