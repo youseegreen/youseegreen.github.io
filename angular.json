@@ -10,25 +10,25 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:class": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:component": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:directive": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:guard": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:module": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:pipe": {
-          "spec": false
+          "skipTests": true
         },
         "@schematics/angular:service": {
-          "spec": false
+          "skipTests": true
         }
       },
       "architect": {
@@ -47,8 +47,8 @@
               "src/googlee77c0e27540a35a8.html"
             ],
             "styles": [
-              "./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss",
-              "./node_modules/angular-bootstrap-md/scss/mdb-free.scss",
+              "./node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss",
+              "./node_modules/angular-bootstrap-md/assets/scss/mdb.scss",
               "src/styles.css"
             ],
             "scripts": [
@@ -68,7 +68,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -109,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "youseegreen-github-io"
+  "cli": {
+    "analytics": false,
+    "schematicCollections": ["@angular-eslint/schematics"]
+  }
 }

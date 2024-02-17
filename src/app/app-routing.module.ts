@@ -27,7 +27,7 @@ const routes: Routes = [
       ogUrl: 'https://yushisato.com/profile'
     }
   },
-  { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
+  { path: 'projects', loadChildren: () => import('./projects/projects.module').then(x => x.ProjectsModule) },
   {
     path: 'publications', component: PublicationsComponent,
     data: {
@@ -37,8 +37,8 @@ const routes: Routes = [
       ogUrl: 'https://yushisato.com/publications'
     }
   },
-  { path: 'galleries', loadChildren: './galleries/galleries.module#GalleriesModule' },
-  { path: 'others', loadChildren: './others/others.module#OthersModule' },
+  { path: 'galleries', loadChildren: () => import('./galleries/galleries.module').then(x => x.GalleriesModule) },
+  { path: 'others', loadChildren: () => import('./others/others.module').then(x => x.OthersModule) },
   { path: 'materials', component: MaterialsComponent, 
     data: {
       title: 'Materials | Yushi Sato', 

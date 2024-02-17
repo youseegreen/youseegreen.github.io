@@ -21,8 +21,8 @@ const routes: Routes = [
                     ogUrl: 'https://youseegreen.github.io/Galleries/'
                 }
             },
-            { path: 'manholes', loadChildren: './manholes/manholes.module#ManholesModule' },
-            { path: 'saikoku33', loadChildren: './saikoku33/saikoku33.module#Saikoku33Module' },
+            { path: 'manholes', loadChildren: () => import('./manholes/manholes.module').then(x => x.ManholesModule) },
+            { path: 'saikoku33', loadChildren: () => import('./saikoku33/saikoku33.module').then(x => x.Saikoku33Module) },
             {
                 path: 'first-trip', component: FirstTripComponent,
                 data: {
