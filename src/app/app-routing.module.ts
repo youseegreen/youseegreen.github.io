@@ -6,6 +6,7 @@ import { ProjectsModule } from './projects/projects.module';
 import { PublicationsComponent } from './publications/publications.component';
 import { GalleriesModule } from './galleries/galleries.module';
 import { OthersModule } from './others/others.module';
+import { MaterialsComponent } from './materials/materials.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,7 @@ const routes: Routes = [
       title: '佐藤 優志 (Yushi Sato)',
       description: '佐藤優志のホームページです。',
       keyword: '佐藤優志,youseegreen,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室,SENS,ExtendedHand,Humanware,ヒューマンウェア',
-      ogUrl: 'https://youseegreen.github.io/'
+      ogUrl: 'https://yushisato.com/'
     }
   },
   {
@@ -23,7 +24,7 @@ const routes: Routes = [
       title: 'プロフィール | 佐藤 優志 (Yushi Sato)',
       description: '佐藤優志のプロフィールです。',
       keyword: '佐藤優志,youseegreen,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室,SENS,ExtendedHand,Humanware,ヒューマンウェア',
-      ogUrl: 'https://youseegreen.github.io/profile'
+      ogUrl: 'https://yushisato.com/profile'
     }
   },
   { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
@@ -33,11 +34,19 @@ const routes: Routes = [
       title: '発表業績 | 佐藤 優志 (Yushi Sato)',
       description: '佐藤優志の発表業績です。',
       keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室',
-      ogUrl: 'https://youseegreen.github.io/publications'
+      ogUrl: 'https://yushisato.com/publications'
     }
   },
   { path: 'galleries', loadChildren: './galleries/galleries.module#GalleriesModule' },
   { path: 'others', loadChildren: './others/others.module#OthersModule' },
+  { path: 'materials', component: MaterialsComponent, 
+    data: {
+      title: 'Materials | Yushi Sato', 
+      description: 'supplemental materials of work', 
+      keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室',
+      ogUrl: 'https://yushisato.com/materials'
+    }
+  },
 ];
 
 @NgModule({
