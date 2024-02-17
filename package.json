@@ -6,12 +6,12 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
-    "deploy-normal": "ng build --prod && ngh --branch=master --repo https://github.com/youseegreen/youseegreen.github.io.git",
-    "deploy": "ng build --prod && cd dist && mkdir profile projects publications others && echo profile projects publications others | xargs -n 1 cp -v index.html && cd ../src/app/ && find others -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/others && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../src/app/ && find projects -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/projects && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../ && ngh --branch=master --cname=yushisato.com --repo https://github.com/youseegreen/youseegreen.github.io.git"
+    "deploy-normal": "ng build --configuration production && ngh --branch=master --repo https://github.com/youseegreen/youseegreen.github.io.git",
+    "deploy": "ng build --configuration production && cd dist && mkdir profile projects publications others && echo profile projects publications others | xargs -n 1 cp -v index.html && cd ../src/app/ && find others -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/others && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../src/app/ && find projects -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/projects && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../ && ngh --branch=master --cname=yushisato.com --repo https://github.com/youseegreen/youseegreen.github.io.git"
   },
   "private": true,
   "dependencies": {
-    "@angular-eslint/schematics": "^17.2.1",
+    "@angular-eslint/schematics": "^14.0.0",
     "@angular/animations": "^15.0.0",
     "@angular/cdk": "^15.0.0",
     "@angular/common": "^15.0.0",
