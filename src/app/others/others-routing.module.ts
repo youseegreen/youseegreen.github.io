@@ -24,7 +24,7 @@ const routes: Routes = [
                     title: 'その他 | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のその他のページです。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Tips,Blog',
-                    ogUrl: 'https://youseegreen.github.io/others/'
+                    ogUrl: 'https://yushisato.com/others/'
                 }
             },
             {
@@ -33,7 +33,7 @@ const routes: Routes = [
                     title: 'シェッフェの一対比較法の浦の変法の元論文について | 佐藤 優志 (Yushi Sato)',
                     description: 'シェッフェの一対比較法の浦の変法の元論文について。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,シェッフェの一対比較法,浦の変法,参考文献',
-                    ogUrl: 'https://youseegreen.github.io/others/scheffe-ura-version'
+                    ogUrl: 'https://yushisato.com/others/scheffe-ura-version'
                 }
             },
             {
@@ -42,7 +42,7 @@ const routes: Routes = [
                     title: 'powerpointで作成した複数の図を楽にpdf化するプログラム | 佐藤 優志 (Yushi Sato)',
                     description: 'powerpointで作成した複数の図を楽にpdf化するプログラム',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Python, python-pptx, pywin32, powerpoint, pdf',
-                    ogUrl: 'https://youseegreen.github.io/others/pptx2figs'
+                    ogUrl: 'https://yushisato.com/others/pptx2figs'
                 }
             },            
             {
@@ -51,7 +51,7 @@ const routes: Routes = [
                     title: '動くデスクトップ壁紙ソフト（Windows） | 佐藤 優志 (Yushi Sato)',
                     description: 'Windowsでデスクトップ壁紙を動く壁紙にするソフトを作成しました。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,動く壁紙,WallPaper Engine,c++',
-                    ogUrl: 'https://youseegreen.github.io/others/desktop-movie'
+                    ogUrl: 'https://yushisato.com/others/desktop-movie'
                 }
             },
             {
@@ -60,7 +60,7 @@ const routes: Routes = [
                     title: 'ぷよべ～す（ぷよ譜生成ソフト）の公開 | 佐藤 優志 (Yushi Sato)',
                     description: 'ぷよぷよの対戦動画からぷよ譜を自動生成するソフトを公開しました。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,ぷよぷよ,ぷよ譜,ぷよぷよクロニクル,c++,OpenCV',
-                    ogUrl: 'https://youseegreen.github.io/others/puyobase'
+                    ogUrl: 'https://yushisato.com/others/puyobase'
                 }
             },
             {
@@ -69,7 +69,7 @@ const routes: Routes = [
                     title: 'BlenderとUnityでCluster用の.vrmファイルを作成する | 佐藤 優志 (Yushi Sato)',
                     description: 'BlenderとUnityでCluster用の.vrmファイルを作成する',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Blender, Unity, Cluster, vrm',
-                    ogUrl: 'https://youseegreen.github.io/others/cluster-3dmodel'
+                    ogUrl: 'https://yushisato.com/others/cluster-3dmodel'
                 }
             },
             {
@@ -78,7 +78,7 @@ const routes: Routes = [
                     title: 'c++から学習済みtensorflowモデルを呼び出す | 佐藤 優志 (Yushi Sato)',
                     description: 'c++から学習済みtensorflowモデルを呼び出す',
                     keyword: '佐藤優志,youseegreen,Yushi Sato, c++, tensorflow, keras, visual studio',
-                    ogUrl: 'https://youseegreen.github.io/others/cpp-tensorflow'
+                    ogUrl: 'https://yushisato.com/others/cpp-tensorflow'
                 }
             },
             {
@@ -87,7 +87,7 @@ const routes: Routes = [
                     title: 'USBカメラを使ってV-Tuberになろう！1 | 佐藤 優志 (Yushi Sato)',
                     description: 'USBカメラを使ってV-Tuberになろう！1',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,USBカメラ, V-Tuber, c++, Unity',
-                    ogUrl: 'https://youseegreen.github.io/others/start-vtuber'
+                    ogUrl: 'https://yushisato.com/others/start-vtuber'
                 }
             },
             {
@@ -96,7 +96,7 @@ const routes: Routes = [
                     title: 'USBカメラを使ってV-Tuberになろう！２ | 佐藤 優志 (Yushi Sato)',
                     description: 'USBカメラを使ってV-Tuberになろう！２',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,USBカメラ, V-Tuber, c++, Unity',
-                    ogUrl: 'https://youseegreen.github.io/others/start-vtuber-2'
+                    ogUrl: 'https://yushisato.com/others/start-vtuber-2'
                 }
             },
             {
@@ -105,7 +105,7 @@ const routes: Routes = [
                     title: 'UnityのNetivePlugin利用でc++上でのDebugを少し便利にしてみる | 佐藤 優志 (Yushi Sato)',
                     description: 'UnityのNetivePlugin利用でc++上でのDebugを少し便利にしてみる',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,c++, dll, Unity, Native Plugins, Debug, 開発',
-                    ogUrl: 'https://youseegreen.github.io/others/unity-nativeplugin-tips'
+                    ogUrl: 'https://yushisato.com/others/unity-nativeplugin-tips'
                 }
             },
             {
@@ -114,7 +114,7 @@ const routes: Routes = [
                     title: 'Native Pluginを利用してUnityからRealsenseを利用する | 佐藤 優志 (Yushi Sato)',
                     description: 'Native Pluginを利用してUnityからRealsenseを利用する',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Unity, RealSense, Native Plugins, c++, dll',
-                    ogUrl: 'https://youseegreen.github.io/others/unity-realsense'
+                    ogUrl: 'https://yushisato.com/others/unity-realsense'
                 }
             },
             {
@@ -123,7 +123,7 @@ const routes: Routes = [
                     title: 'abcjsを用いて、ウェブページで楽譜を表示してみる | 佐藤 優志 (Yushi Sato)',
                     description: 'abcjsを用いて、ウェブページで楽譜を表示してみる',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Unity, RealSense, Native Plugins, c++, dll',
-                    ogUrl: 'https://youseegreen.github.io/others/abcjs'
+                    ogUrl: 'https://yushisato.com/others/abcjs'
                 }
             },
 

@@ -9,6 +9,7 @@ import { fARFEELComponent } from './farfeel/farfeel.component';
 import { Responsive_EHComponent } from './responsive_eh/responsive_eh.component';
 import { DesktopHandComponent } from './desktophand/desktophand.component';
 import { HugbotComponent } from './hugbot/hugbot.component';
+import { SoundTexture_EHComponent } from './soundtexture_eh/soundtexture_eh.component';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import { HugbotComponent } from './hugbot/hugbot.component';
         fARFEELComponent,
         Responsive_EHComponent,
         DesktopHandComponent,
+        SoundTexture_EHComponent,
         HugbotComponent
     ],
     imports: [

@@ -75,7 +75,7 @@
     <!-- カードレイアウトをラッピング -->
     <ng-container *ngFor="let res of manholes | manholeFilter:'area':areaText:'prefecture':prefectureText">
       <section class=" card">
-        <img class="card-img" src={{res.photoPath}} alt={{res.city}}>
+        <img class="card-img" [src]="'images/galleries/manholes/' + res.photoName" [alt]="res.city">
         <div class="card-content">
           <h1 class='manholes-title'>
             <a routerLink={{res.link}} routerLinkActive="active" class="manholes-link">{{res.city}}</a>

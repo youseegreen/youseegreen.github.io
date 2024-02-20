@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PublicationsComponent } from './publications/publications.component';
-import { MaterialsComponent } from './materials/materials.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,7 +22,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     ProfileComponent,
     PublicationsComponent,
-    MaterialsComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,10 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjectsModule } from './projects/projects.module';
+import { SoundTexture_EHComponent } from './projects/soundtexture_eh/soundtexture_eh.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { GalleriesModule } from './galleries/galleries.module';
 import { OthersModule } from './others/others.module';
-import { MaterialsComponent } from './materials/materials.component';
 
 const routes: Routes = [
   {
@@ -39,14 +39,16 @@ const routes: Routes = [
   },
   { path: 'galleries', loadChildren: () => import('./galleries/galleries.module').then(x => x.GalleriesModule) },
   { path: 'others', loadChildren: () => import('./others/others.module').then(x => x.OthersModule) },
-  { path: 'materials', component: MaterialsComponent, 
+  // https://yushisato.com/materials => https://yushisato.com/projects/soundtexture_eh/supplemental_material/
+  { path: 'materials', redirectTo: 'projects/soundtexture_eh', pathMatch: 'full' }, 
+  { path: 'projects/soundtexture_eh', component: SoundTexture_EHComponent, 
     data: {
       title: 'Materials | Yushi Sato', 
       description: 'supplemental materials of work', 
       keyword: '佐藤優志,Yushi Sato,大阪大学,基礎工学研究科,佐藤研究室',
       ogUrl: 'https://yushisato.com/materials'
     }
-  },
+  }, 
 ];
 
 @NgModule({

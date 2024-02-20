@@ -18,7 +18,7 @@ const routes: Routes = [
                     title: 'ギャラリー | 佐藤 優志 (Yushi Sato)',
                     description: '佐藤優志のギャラリーのページです。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,Gellery,Blog',
-                    ogUrl: 'https://youseegreen.github.io/Galleries/'
+                    ogUrl: 'https://yushisato.com/Galleries/'
                 }
             },
             { path: 'manholes', loadChildren: () => import('./manholes/manholes.module').then(x => x.ManholesModule) },
@@ -29,7 +29,7 @@ const routes: Routes = [
                     title: '18歳の18切符 | 佐藤 優志 (Yushi Sato)',
                     description: '初旅の思い出です。',
                     keyword: '佐藤優志,youseegreen,Yushi Sato,中国地方,18切符',
-                    ogUrl: 'https://youseegreen.github.io/galleries/first-trip'
+                    ogUrl: 'https://yushisato.com/galleries/first-trip'
                 }
             },
         ]
