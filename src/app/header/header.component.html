@@ -2,7 +2,10 @@
   <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark navbar-background fixed-top">
     <mdb-navbar-brand class="navbar-brand">
       <h1>
-        <a id=logo routerLink="/" routerLinkActive="active">
+        <a *ngIf="clang === 'ja'" class="nav-item nav-link waves-light" routerLink="/" routerLinkActive="active">
+          <img src="images/logos/yushi-sato-white.png" alt="Yushi Sato" height="55px">
+        </a>
+        <a *ngIf="clang === 'en'" class="nav-item nav-link waves-light" routerLink="/en" routerLinkActive="active">
           <img src="images/logos/yushi-sato-white.png" alt="Yushi Sato" height="55px">
         </a>
       </h1>
@@ -11,10 +14,25 @@
 
     <links>
       <div class="nav navbar-nav ml-auto">
-        <a class="nav-item nav-link waves-light" routerLink="/profile" routerLinkActive="active">Profile</a>
-        <a class="nav-item nav-link waves-light" routerLink="/projects" routerLinkActive="active">Projects</a>
-        <a class="nav-item nav-link waves-light" routerLink="/publications" routerLinkActive="active">Publications</a>
-        <a class="nav-item nav-link waves-light" routerLink="/others" routerLinkActive="active">Others</a>
+        <a *ngIf="clang === 'ja'" class="nav-item nav-link waves-light" routerLink="/profile" routerLinkActive="active">Profile</a>
+        <a *ngIf="clang === 'en'" class="nav-item nav-link waves-light" routerLink="/en/profile" routerLinkActive="active">Profile</a>
+        <a *ngIf="clang === 'ja'" class="nav-item nav-link waves-light" routerLink="/projects" routerLinkActive="active">Projects</a>
+        <a *ngIf="clang === 'en'" class="nav-item nav-link waves-light" routerLink="/en/projects" routerLinkActive="active">Projects</a>
+        <a *ngIf="clang === 'ja'" class="nav-item nav-link waves-light" routerLink="/publications" routerLinkActive="active">Publications</a>
+        <a *ngIf="clang === 'en'" class="nav-item nav-link waves-light" routerLink="/en/publications" routerLinkActive="active">Publications</a>
+        <a *ngIf="clang === 'ja'" class="nav-item nav-link waves-light" routerLink="/others" routerLinkActive="active">Others</a>
+        <a *ngIf="clang === 'en'" class="nav-item nav-link waves-light" routerLink="/en/others" routerLinkActive="active">Others</a>
+
+        <input type="radio" name="langs" id="en-btn" [checked]="clang === 'en'" (click)="switchLanguage('en')"/>
+        <label for="en-btn">
+          <img src="images/logos/usa.png" alt="English" max-height="25px">
+          <span class="waves-light">English</span>
+        </label>
+        <input type="radio" name="langs" id="ja-btn" [checked]="clang === 'ja'" (click)="switchLanguage('ja')"/>
+        <label for="ja-btn">
+          <img src="images/logos/japan.png" alt="日本語" max-height="25px">
+          <span class="waves-light">日本語</span>
+        </label>
       </div>
     </links>
   </mdb-navbar>

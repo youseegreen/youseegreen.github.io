@@ -8,11 +8,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { HomeEnComponent } from './home/home-en.component';
 import { ProfileComponent } from './profile/profile.component';
 import { PublicationsComponent } from './publications/publications.component';
 
+import { ProfileEnComponent } from './profile/profile-en.component';
+import { PublicationsEnComponent } from './publications/publications-en.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { LanguageService } from './language.service';
 
 @NgModule({
   declarations: [
@@ -20,8 +25,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    HomeEnComponent,
     ProfileComponent,
+    ProfileEnComponent,
     PublicationsComponent,
+    PublicationsEnComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +39,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     BrowserAnimationsModule,
   ],
+  providers: [
+    // LanguageService
+  ],    
   bootstrap: [AppComponent]
 })
 export class AppModule { }
