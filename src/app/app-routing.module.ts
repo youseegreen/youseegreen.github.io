@@ -72,8 +72,6 @@ const routes: Routes = [
   { path: 'galleries', loadChildren: () => import('./galleries/galleries.module').then(x => x.GalleriesModule) },
   { path: 'others', loadChildren: () => import('./others/others.module').then(x => x.OthersModule) },
   { path: 'en/others', pathMatch: 'full', component: OthersMainEnComponent},
-  // { path: 'others/scheffe-ura-version', pathMatch: 'full', component: ProfileComponent},
-  { path: 'materials', redirectTo: 'projects/soundtexture_eh', pathMatch: 'full' }, 
   { path: 'projects/soundtexture_eh', component: SoundTexture_EHComponent, 
     data: {
       title: 'Materials | Yushi Sato', 
