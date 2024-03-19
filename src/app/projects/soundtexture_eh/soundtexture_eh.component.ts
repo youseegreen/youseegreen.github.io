@@ -14,7 +14,7 @@ export class SoundTexture_EHComponent implements OnInit {
 
   copy_bibtex(paper_name){
     const tmp = document.createElement('textarea');
-    tmp.textContent = '@inproceedings{sato2024soundtexture,\n  title={Sound Texture Feedback for a Projected Extended Hand Interface},\n  author={Sato, Yushi and Iwai, Daisuke and Sato, Kosuke},\n  journal={IEEE Access},\n  volume={12},\n  pages={27673--27682},\n  year={2024},\n  publisher={IEEE}\n}';
+    tmp.textContent = '@article{sato2024soundtexture,\n  title={Sound Texture Feedback for a Projected Extended Hand Interface},\n  author={Sato, Yushi and Iwai, Daisuke and Sato, Kosuke},\n  journal={IEEE Access},\n  volume={12},\n  pages={27673--27682},\n  year={2024},\n  publisher={IEEE}\n}';
     document.body.appendChild(tmp);
     document.getSelection().selectAllChildren(tmp);
     document.execCommand("Copy");
