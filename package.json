@@ -29,6 +29,8 @@
     "core-js": "^3.0.0",
     "crypto-js": "^4.2.0",
     "json5": "^2.2.2",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
     "rxjs": "^6.6.7",
     "tslib": "^1.14.1",
     "zone.js": "^0.12.0"
