@@ -6,6 +6,7 @@ import { GalleriesMainComponent } from './galleries-main/galleries-main.componen
 // import { Saikoku33Component } from './saikoku33/saikoku33.component';
 // import { ManholesComponent } from './manholes/manholes.component';
 import { FirstTripComponent } from './first-trip/first-trip.component';
+import { MapsComponent } from './maps/maps.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,15 @@ const routes: Routes = [
             },
             { path: 'manholes', loadChildren: () => import('./manholes/manholes.module').then(x => x.ManholesModule) },
             { path: 'saikoku33', loadChildren: () => import('./saikoku33/saikoku33.module').then(x => x.Saikoku33Module) },
+            {
+                path: 'maps', component: MapsComponent,
+                data: {
+                    title: 'マンホールマップ | 佐藤 優志 (Yushi Sato)',
+                    description: 'マンホールマップです。',
+                    keyword: '佐藤優志,youseegreen,Yushi Sato,マンホール,manhole',
+                    ogUrl: 'https://yushisato.com/galleries/maps/'
+                }
+            },
             {
                 path: 'first-trip', component: FirstTripComponent,
                 data: {

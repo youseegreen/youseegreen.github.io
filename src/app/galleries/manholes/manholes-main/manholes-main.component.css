@@ -133,3 +133,27 @@ body {
   color: #005920;
   text-decoration: underline dotted;
 }
+
+a
+{
+  color: #007641;
+  text-decoration: none;
+}
+
+a:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}

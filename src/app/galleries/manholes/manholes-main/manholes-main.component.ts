@@ -16,7 +16,20 @@ export class ManholesMainComponent implements OnInit {
   ngOnInit() {
     this.areaText = '';
     this.prefectureText = '';
-    this.http.get<any[]>('data/manholes.json').subscribe(val => { this.manholes = val });
+    // this.http.get<any[]>('data/manholes.json').subscribe(val => { this.manholes = val });
+
+    // GeoJSONファイルを読み込む
+    this.http.get('data/manholes.geojson').subscribe((geojson: any) => {
+      // features 配列からデータを抽出
+      this.manholes = geojson.features.map((feature: any) => ({
+        area: feature.properties.area, // プロパティ名を調整
+        prefecture: feature.properties.prefecture,
+        city: feature.properties.city,
+        photoName: feature.properties.photoName,
+        coordinates: feature.geometry.coordinates,
+      }));
+    });
+
   }
 
   viewArea(input: String) {
