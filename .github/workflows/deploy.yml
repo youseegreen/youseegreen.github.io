@@ -1,0 +1,41 @@
+name: Deploy Angular App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.14.0
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Angular app
+        run: npm run build -- --configuration production
+
+      - name: Copy index.html into folders
+        run: cd dist && mkdir profile projects publications others galleries && echo profile projects publications others galleries | xargs -n 1 cp -v index.html && cd ../src/app/ && find others -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/others && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../src/app/ && find projects -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/projects && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../src/app/ && find galleries -type d | xargs -I dir mkdir -p ../../dist/dir && cd ../../dist/galleries && find . -type d | xargs -n 1 cp -v -n index.html && cd ../../
+
+      - name: Create CNAME file
+        run: echo 'yushisato.com' > dist/CNAME
+        
+      - name: Deploy to GitHub Pages (master branch)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/
+          publish_branch: master
